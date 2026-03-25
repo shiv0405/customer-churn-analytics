@@ -1,0 +1,26 @@
+feature,importance
+boolean__autopay_enabled,1.150019
+categorical__contract_type_month-to-month,1.13603
+categorical__contract_type_two-year,1.001268
+numeric__nps_score,0.84063
+numeric__engagement_score,0.779412
+numeric__avg_monthly_usage_gb,0.723211
+numeric__monthly_charges,0.680105
+categorical__contract_type_one-year,0.663158
+numeric__tenure_months,0.585899
+categorical__payment_method_invoice,0.48566
+numeric__payment_failures_90d,0.462213
+categorical__payment_method_bank-transfer,0.461862
+numeric__support_tickets_90d,0.415113
+numeric__cross_sell_products,0.386026
+categorical__payment_method_credit-card,0.359287
+numeric__days_since_last_login,0.343852
+categorical__internet_tier_fiber,0.313062
+boolean__premium_support,0.293388
+categorical__region_North America,0.250566
+categorical__region_Europe,0.250265
+boolean__streaming_bundle,0.239581
+numeric__service_incidents_30d,0.232667
+categorical__payment_method_digital-wallet,0.192906
+categorical__region_APAC,0.171166
+categorical__internet_tier_cable,0.147531

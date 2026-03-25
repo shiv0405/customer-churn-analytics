@@ -1,83 +1,62 @@
-# customer-churn-analytics
+# Customer Churn Analytics
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Template](https://img.shields.io/badge/Template-Data%20Science-teal)
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
+A production-friendly churn analytics project built for portfolio and stakeholder review. It includes synthetic enterprise-scale sample data, a training and evaluation pipeline, risk scoring outputs, model governance artifacts, and an executive-ready HTML summary.
 
-Predictive churn modeling, KPI analysis, and stakeholder-ready insights.
+## Highlights
 
-## Overview
+- Large synthetic customer base with realistic churn drivers and segment mix
+- End-to-end training pipeline with validation, model selection, threshold tuning, and scoring
+- Exported artifacts for metrics, leaderboard comparison, feature importance, and executive reporting
+- Modular package structure that is easy to evolve into batch jobs or API-serving workflows
 
-This repository is structured for exploratory analysis, feature engineering, and stakeholder-ready deliverables. It includes a starter module, notebook scaffold, Power BI placeholders, and a baseline churn modeling pipeline.
+## Project Layout
+
+- `src/customer_churn_analytics/` contains the package code
+- `data/raw/` stores the generated training dataset
+- `data/processed/` stores scored customer outputs
+- `artifacts/` stores metrics, model assets, and summary reports
 
 ## Quick Start
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
-python src/analysis.py
+python -m pip install -e .
+python -m customer_churn_analytics.cli run-all --rows 15000
 ```
 
-## Run the churn pipeline
+## Commands
 
-Place a CSV at `data/raw/customer_churn_sample.csv` and run:
+Generate only the sample dataset:
 
 ```bash
-python src/churn_pipeline.py
+python -m customer_churn_analytics.cli generate-data --rows 15000
 ```
 
-The pipeline writes:
+Train models, select the best one, and export reports:
 
-- `data/processed/churn_model_metrics.csv`
-- `data/processed/churn_scored_customers.csv`
+```bash
+python -m customer_churn_analytics.cli train
+```
 
-## Expected churn dataset schema
+## Outputs
 
-The baseline model expects these columns:
+After `run-all`, the project writes:
 
-- `customer_id`
-- `tenure_months`
-- `monthly_charges`
-- `support_tickets_90d`
-- `payment_failures_90d`
-- `usage_score`
-- `contract_type`
-- `region`
-- `churned`
+- `data/raw/customer_churn_synthetic.csv`
+- `data/processed/customer_risk_scores.csv`
+- `artifacts/model_metrics.json`
+- `artifacts/model_leaderboard.csv`
+- `artifacts/feature_importance.csv`
+- `artifacts/model_summary.md`
+- `artifacts/executive_summary.html`
+- `artifacts/churn_model.pkl`
 
-Notes:
+## Notes
 
-- `churned` must be binary (`0` or `1`).
-- Both churn classes must be present for training and evaluation.
-- Missing values in feature columns are handled by the preprocessing pipeline.
-
-## Project Structure
-
-- `src/analysis.py` contains a starter loading and summarization workflow for sample operational metrics.
-- `src/churn_pipeline.py` trains a baseline logistic regression churn model and exports evaluation outputs.
-- `notebooks/01_exploration.ipynb` is the initial analysis notebook.
-- `docs/architecture.md` describes KPI and delivery expectations.
-- `powerbi/` contains Power BI placeholders and metadata for stakeholder reporting.
-
-## Validation and evaluation improvements
-
-The churn pipeline includes:
-
-- required-column validation before training
-- stratified train/test splitting for more stable class balance
-- exported metrics including accuracy, precision, recall, F1, ROC AUC, and average precision
-- scored-customer output with probability and simple risk bands
+- The dataset is synthetic by design, but the feature interactions are intentionally realistic so the project supports senior-level discussion around retention strategy, operational risk, and model governance.
+- This project is built to be transparent about automation and suitable for extension into orchestration, monitoring, or API-serving work.
 
 ## Automation Disclosure
 
 **Note:** This repository uses automation and AI assistance for planning, initial scaffolding, routine maintenance, and selected code or documentation generation. I review and curate the outputs as part of my portfolio workflow.
-
-## Reporting Starter Kit
-
-This repository includes a practical Power BI build kit:
-
-- `data/operations_kpis.csv` and `data/incident_log.csv` sample the reporting model
-- `powerbi/measures.dax` contains reusable DAX starter measures
-- `powerbi/semantic_model.json` describes the tables and fields
-- `powerbi/dashboard_preview.html` gives a browser-based KPI preview before the real `.pbix` is built

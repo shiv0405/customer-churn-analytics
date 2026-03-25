@@ -1,8 +1,6 @@
 __pycache__/
-.ipynb_checkpoints/
-.venv/
-dist/
-build/
 *.pyc
-data/processed/
+.pytest_cache/
+.venv/
+artifacts/*.pkl
 

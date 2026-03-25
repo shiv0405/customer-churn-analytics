@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Churn Executive Summary</title>
+  <style>
+    body { font-family: "Segoe UI", sans-serif; margin: 0; padding: 28px; background: #f5efe7; color: #1c2733; }
+    .hero, .panel { background: #fffdf9; border: 1px solid #ebdfd3; border-radius: 24px; padding: 24px; margin-bottom: 18px; }
+    h1, h2 { margin-top: 0; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+    .card { background: #f8f1e7; border-radius: 18px; padding: 16px; }
+    .card span { display: block; color: #627080; font-size: 12px; text-transform: uppercase; margin-bottom: 6px; }
+    .card strong { font-size: 28px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 10px; border-bottom: 1px solid #eee5da; }
+    .kicker { text-transform: uppercase; font-size: 12px; letter-spacing: 0.12em; color: #9b6331; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="kicker">Customer Retention Intelligence</div>
+    <h1>Churn Analytics Executive Summary</h1>
+    <p>Champion model: <strong>logistic_regression</strong>. Operating threshold: <strong>0.75</strong>.</p>
+    <div class="cards"><div class='card'><span>Accuracy</span><strong>0.9193</strong></div><div class='card'><span>Precision</span><strong>0.3095</strong></div><div class='card'><span>Recall</span><strong>0.6894</strong></div><div class='card'><span>F1</span><strong>0.4272</strong></div><div class='card'><span>Roc Auc</span><strong>0.9397</strong></div><div class='card'><span>Average Precision</span><strong>0.4845</strong></div></div>
+  </section>
+  <section class="panel">
+    <h2>Top Drivers</h2>
+    <table>
+      <thead><tr><th>Feature</th><th>Importance</th></tr></thead>
+      <tbody><tr><td>boolean__autopay_enabled</td><td>1.150019</td></tr><tr><td>categorical__contract_type_month-to-month</td><td>1.13603</td></tr><tr><td>categorical__contract_type_two-year</td><td>1.001268</td></tr><tr><td>numeric__nps_score</td><td>0.84063</td></tr><tr><td>numeric__engagement_score</td><td>0.779412</td></tr><tr><td>numeric__avg_monthly_usage_gb</td><td>0.723211</td></tr><tr><td>numeric__monthly_charges</td><td>0.680105</td></tr><tr><td>categorical__contract_type_one-year</td><td>0.663158</td></tr><tr><td>numeric__tenure_months</td><td>0.585899</td></tr><tr><td>categorical__payment_method_invoice</td><td>0.48566</td></tr><tr><td>numeric__payment_failures_90d</td><td>0.462213</td></tr><tr><td>categorical__payment_method_bank-transfer</td><td>0.461862</td></tr></tbody>
+    </table>
+  </section>
+  <section class="panel">
+    <h2>Highest-Risk Segments</h2>
+    <table>
+      <thead><tr><th>Region</th><th>Contract</th><th>Average Churn Probability</th><th>Critical Accounts</th></tr></thead>
+      <tbody><tr><td>LATAM</td><td>month-to-month</td><td>0.4197</td><td>182</td></tr><tr><td>APAC</td><td>month-to-month</td><td>0.3675</td><td>311</td></tr><tr><td>North America</td><td>month-to-month</td><td>0.3587</td><td>438</td></tr><tr><td>Europe</td><td>month-to-month</td><td>0.3579</td><td>334</td></tr><tr><td>LATAM</td><td>one-year</td><td>0.179</td><td>15</td></tr><tr><td>Europe</td><td>one-year</td><td>0.1499</td><td>29</td></tr><tr><td>APAC</td><td>one-year</td><td>0.1473</td><td>35</td></tr><tr><td>North America</td><td>one-year</td><td>0.1356</td><td>39</td></tr><tr><td>LATAM</td><td>two-year</td><td>0.1308</td><td>11</td></tr><tr><td>Europe</td><td>two-year</td><td>0.112</td><td>19</td></tr></tbody>
+    </table>
+  </section>
+</body>
+</html>
