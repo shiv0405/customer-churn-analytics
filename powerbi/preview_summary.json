@@ -1,0 +1,101 @@
+{
+  "project_name": "customer-churn-analytics",
+  "description": "Predictive churn modeling, KPI analysis, and stakeholder-ready insights.",
+  "owner": "shdhruvk",
+  "generated_at": "2026-03-25T13:10:25.943541+00:00",
+  "latest_week": "2026-03-25",
+  "kpis": {
+    "throughput_units": 8712,
+    "throughput_target": 8712,
+    "quality_pct_avg": 96.22,
+    "on_time_pct_avg": 93.2,
+    "backlog_items": 1044,
+    "incidents": 17
+  },
+  "weekly_trend": [
+    {
+      "reporting_week": "2026-01-07",
+      "throughput_units": 8640,
+      "throughput_target": 8712,
+      "quality_pct": 96.22,
+      "backlog_items": 1098
+    },
+    {
+      "reporting_week": "2026-01-14",
+      "throughput_units": 8784,
+      "throughput_target": 8712,
+      "quality_pct": 96.67,
+      "backlog_items": 1044
+    },
+    {
+      "reporting_week": "2026-01-21",
+      "throughput_units": 8872,
+      "throughput_target": 8712,
+      "quality_pct": 97.12,
+      "backlog_items": 990
+    },
+    {
+      "reporting_week": "2026-01-28",
+      "throughput_units": 8848,
+      "throughput_target": 8712,
+      "quality_pct": 97.13,
+      "backlog_items": 1206
+    },
+    {
+      "reporting_week": "2026-02-04",
+      "throughput_units": 8712,
+      "throughput_target": 8712,
+      "quality_pct": 96.68,
+      "backlog_items": 1152
+    },
+    {
+      "reporting_week": "2026-02-11",
+      "throughput_units": 8576,
+      "throughput_target": 8712,
+      "quality_pct": 96.22,
+      "backlog_items": 1098
+    },
+    {
+      "reporting_week": "2026-02-18",
+      "throughput_units": 8552,
+      "throughput_target": 8712,
+      "quality_pct": 96.22,
+      "backlog_items": 1044
+    },
+    {
+      "reporting_week": "2026-02-25",
+      "throughput_units": 8640,
+      "throughput_target": 8712,
+      "quality_pct": 96.67,
+      "backlog_items": 990
+    },
+    {
+      "reporting_week": "2026-03-04",
+      "throughput_units": 8784,
+      "throughput_target": 8712,
+      "quality_pct": 97.12,
+      "backlog_items": 1206
+    },
+    {
+      "reporting_week": "2026-03-11",
+      "throughput_units": 8872,
+      "throughput_target": 8712,
+      "quality_pct": 97.13,
+      "backlog_items": 1152
+    },
+    {
+      "reporting_week": "2026-03-18",
+      "throughput_units": 8848,
+      "throughput_target": 8712,
+      "quality_pct": 96.68,
+      "backlog_items": 1098
+    },
+    {
+      "reporting_week": "2026-03-25",
+      "throughput_units": 8712,
+      "throughput_target": 8712,
+      "quality_pct": 96.22,
+      "backlog_items": 1044
+    }
+  ]
+}

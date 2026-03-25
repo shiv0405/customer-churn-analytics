@@ -2,7 +2,10 @@
   "project_name": "customer-churn-analytics",
   "description": "Predictive churn modeling, KPI analysis, and stakeholder-ready insights.",
   "owner": "shdhruvk",
-  "generated_at": "2026-03-25T12:52:34.370636+00:00",
-  "source_file": "../data/sample_metrics.csv",
-  "connection_notes": "Load the CSV into Power BI Desktop and update credentials for real data sources."
+  "generated_at": "2026-03-25T13:10:25.952754+00:00",
+  "source_files": [
+    "../data/operations_kpis.csv",
+    "../data/incident_log.csv"
+  ],
+  "connection_notes": "Load both CSV files into Power BI Desktop and create a date table for reporting_week."
 }

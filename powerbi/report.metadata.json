@@ -1,14 +1,15 @@
 {
   "project_name": "customer-churn-analytics",
+  "generated_at": "2026-03-25T13:10:25.952754+00:00",
   "pages": [
-    "Executive Summary",
-    "Trend Breakdown",
-    "Operational Detail"
+    "Executive Overview",
+    "Site Performance",
+    "Incident Detail"
   ],
   "suggested_visuals": [
-    "line chart",
-    "card KPI",
-    "clustered bar chart"
-  ],
-  "generated_at": "2026-03-25T12:52:34.370636+00:00"
+    "KPI cards",
+    "trend line",
+    "site comparison bars",
+    "incident table"
+  ]
 }

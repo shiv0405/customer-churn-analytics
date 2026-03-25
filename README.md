@@ -8,7 +8,7 @@ Predictive churn modeling, KPI analysis, and stakeholder-ready insights.
 
 ## Overview
 
-This repository is structured for exploratory analysis, feature engineering, and stakeholder-ready deliverables. It includes a starter module, notebook scaffold, and folders for raw and processed datasets.
+This repository is structured for exploratory analysis, feature engineering, and stakeholder-ready deliverables. It includes a starter module, notebook scaffold, Power BI placeholders, and a baseline churn modeling pipeline.
 
 ## Quick Start
 
@@ -19,37 +19,65 @@ python -m pip install -r requirements.txt
 python src/analysis.py
 ```
 
-## Project Structure
+## Run the churn pipeline
 
-- `src/analysis.py` contains a starter loading and summarization workflow.
-- `notebooks/01_exploration.ipynb` is the initial analysis notebook.
-- `data/raw/` and `data/processed/` separate incoming data from derived outputs.
-
-## Automation Disclosure
-
-**Note:** This repository uses automation and AI assistance for planning, initial scaffolding, routine maintenance, and selected code or documentation generation. I review and curate the outputs as part of my portfolio workflow.
-
-## Added Starter Assets
-
-These files make the project more immediately usable for churn analysis and stakeholder reporting:
-
-- `src/churn_pipeline.py` - baseline churn modeling workflow with preprocessing, train/test split, and CSV metric export.
-- `docs/architecture.md` - concise project architecture, KPI definitions, and stakeholder delivery guidance.
-- `data/raw/customer_churn_sample.csv` - small synthetic sample dataset for local testing and demos.
-
-## Run The Baseline Model
+Place a CSV at `data/raw/customer_churn_sample.csv` and run:
 
 ```bash
 python src/churn_pipeline.py
 ```
 
-Expected outputs:
+The pipeline writes:
 
 - `data/processed/churn_model_metrics.csv`
 - `data/processed/churn_scored_customers.csv`
 
-## Suggested Next Steps
+## Expected churn dataset schema
 
-- Replace the sample CSV with production-safe source extracts.
-- Add retention intervention labels for uplift or next-best-action analysis.
-- Connect model outputs to Power BI for churn risk segmentation and KPI tracking.
+The baseline model expects these columns:
+
+- `customer_id`
+- `tenure_months`
+- `monthly_charges`
+- `support_tickets_90d`
+- `payment_failures_90d`
+- `usage_score`
+- `contract_type`
+- `region`
+- `churned`
+
+Notes:
+
+- `churned` must be binary (`0` or `1`).
+- Both churn classes must be present for training and evaluation.
+- Missing values in feature columns are handled by the preprocessing pipeline.
+
+## Project Structure
+
+- `src/analysis.py` contains a starter loading and summarization workflow for sample operational metrics.
+- `src/churn_pipeline.py` trains a baseline logistic regression churn model and exports evaluation outputs.
+- `notebooks/01_exploration.ipynb` is the initial analysis notebook.
+- `docs/architecture.md` describes KPI and delivery expectations.
+- `powerbi/` contains Power BI placeholders and metadata for stakeholder reporting.
+
+## Validation and evaluation improvements
+
+The churn pipeline includes:
+
+- required-column validation before training
+- stratified train/test splitting for more stable class balance
+- exported metrics including accuracy, precision, recall, F1, ROC AUC, and average precision
+- scored-customer output with probability and simple risk bands
+
+## Automation Disclosure
+
+**Note:** This repository uses automation and AI assistance for planning, initial scaffolding, routine maintenance, and selected code or documentation generation. I review and curate the outputs as part of my portfolio workflow.
+
+## Reporting Starter Kit
+
+This repository includes a practical Power BI build kit:
+
+- `data/operations_kpis.csv` and `data/incident_log.csv` sample the reporting model
+- `powerbi/measures.dax` contains reusable DAX starter measures
+- `powerbi/semantic_model.json` describes the tables and fields
+- `powerbi/dashboard_preview.html` gives a browser-based KPI preview before the real `.pbix` is built
