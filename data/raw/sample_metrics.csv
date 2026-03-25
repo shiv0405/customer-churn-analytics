@@ -1,0 +1,5 @@
+reporting_date,metric_name,value,target,status
+2026-03-01,pipeline_latency_ms,184,200,on_track
+2026-03-08,pipeline_latency_ms,176,200,on_track
+2026-03-15,pipeline_latency_ms,190,200,on_track
+

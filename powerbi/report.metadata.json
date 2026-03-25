@@ -1,0 +1,14 @@
+{
+  "project_name": "customer-churn-analytics",
+  "pages": [
+    "Executive Summary",
+    "Trend Breakdown",
+    "Operational Detail"
+  ],
+  "suggested_visuals": [
+    "line chart",
+    "card KPI",
+    "clustered bar chart"
+  ],
+  "generated_at": "2026-03-25T12:52:34.370636+00:00"
+}
