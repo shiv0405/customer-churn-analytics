@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-label="Highest-Risk Customer Segments">
+  <rect width="1280" height="760" fill="#f3fbf8"/>
+  <rect x="40" y="36" width="1200" height="120" rx="28" fill="#ffffff" stroke="#d8eeea" stroke-width="2"/>
+  <text x="74" y="92" fill="#0f172a" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Highest-Risk Customer Segments</text>
+  <text x="74" y="128" fill="#64748b" font-size="19" font-family="Segoe UI, Arial, sans-serif">Critical-account concentration by region and contract type</text>
+  
+  <text x="120" y="214" fill="#0f172a" font-size="18" font-family="Segoe UI, Arial, sans-serif">North America | month-to-month</text>
+  <rect x="440" y="192" width="620" height="28" rx="14" fill="#f3fbf8" stroke="#d8eeea" stroke-width="1"/>
+  <rect x="440" y="192" width="620.0" height="28" rx="14" fill="#14b8a6"/>
+  <text x="1078" y="214" fill="#0f766e" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">438 critical</text>
+
+  <text x="120" y="286" fill="#0f172a" font-size="18" font-family="Segoe UI, Arial, sans-serif">Europe | month-to-month</text>
+  <rect x="440" y="264" width="620" height="28" rx="14" fill="#f3fbf8" stroke="#d8eeea" stroke-width="1"/>
+  <rect x="440" y="264" width="472.8" height="28" rx="14" fill="#14b8a6"/>
+  <text x="1078" y="286" fill="#0f766e" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">334 critical</text>
+
+  <text x="120" y="358" fill="#0f172a" font-size="18" font-family="Segoe UI, Arial, sans-serif">APAC | month-to-month</text>
+  <rect x="440" y="336" width="620" height="28" rx="14" fill="#f3fbf8" stroke="#d8eeea" stroke-width="1"/>
+  <rect x="440" y="336" width="440.2" height="28" rx="14" fill="#14b8a6"/>
+  <text x="1078" y="358" fill="#0f766e" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">311 critical</text>
+
+  <text x="120" y="430" fill="#0f172a" font-size="18" font-family="Segoe UI, Arial, sans-serif">LATAM | month-to-month</text>
+  <rect x="440" y="408" width="620" height="28" rx="14" fill="#f3fbf8" stroke="#d8eeea" stroke-width="1"/>
+  <rect x="440" y="408" width="257.6" height="28" rx="14" fill="#14b8a6"/>
+  <text x="1078" y="430" fill="#0f766e" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">182 critical</text>
+
+  <text x="120" y="502" fill="#0f172a" font-size="18" font-family="Segoe UI, Arial, sans-serif">North America | one-year</text>
+  <rect x="440" y="480" width="620" height="28" rx="14" fill="#f3fbf8" stroke="#d8eeea" stroke-width="1"/>
+  <rect x="440" y="480" width="55.2" height="28" rx="14" fill="#14b8a6"/>
+  <text x="1078" y="502" fill="#0f766e" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">39 critical</text>
+
+  <text x="120" y="574" fill="#0f172a" font-size="18" font-family="Segoe UI, Arial, sans-serif">APAC | one-year</text>
+  <rect x="440" y="552" width="620" height="28" rx="14" fill="#f3fbf8" stroke="#d8eeea" stroke-width="1"/>
+  <rect x="440" y="552" width="49.5" height="28" rx="14" fill="#14b8a6"/>
+  <text x="1078" y="574" fill="#0f766e" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">35 critical</text>
+
+  <rect x="74" y="646" width="1132" height="72" rx="24" fill="#ffffff" stroke="#d8eeea" stroke-width="1.5"/>
+  <text x="100" y="692" fill="#64748b" font-size="18" font-family="Segoe UI, Arial, sans-serif">Critical-account counts are derived from the generated scored portfolio and highlight where retention operations should focus first.</text>
+</svg>

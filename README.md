@@ -9,6 +9,12 @@ Churn analytics project focused on retention decisioning, account prioritization
 - Includes a reusable batch-scoring workflow for downstream operational use
 - Uses synthetic data with realistic feature interactions across engagement, support, billing, and contracts
 
+## Visual Outputs
+
+![Customer retention overview](docs/images/overview.svg)
+
+![Customer retention highlights](docs/images/highlights.svg)
+
 ## Core Capabilities
 
 - Synthetic portfolio generation for 15,000+ customers with realistic commercial, support, product usage, and payment signals
