@@ -1,0 +1,11 @@
+region,contract_type,customers,average_probability,critical_accounts
+LATAM,month-to-month,866,0.4197,182
+APAC,month-to-month,1814,0.3675,311
+North America,month-to-month,2665,0.3587,438
+Europe,month-to-month,2083,0.3579,334
+LATAM,one-year,484,0.179,15
+Europe,one-year,1180,0.1499,29
+APAC,one-year,1032,0.1473,35
+North America,one-year,1489,0.1356,39
+LATAM,two-year,397,0.1308,11
+Europe,two-year,941,0.112,19

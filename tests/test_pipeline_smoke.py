@@ -18,3 +18,5 @@ def test_training_pipeline_writes_expected_outputs(tmp_path: Path) -> None:
     assert result.metrics["roc_auc"] >= 0.85
     assert Path(result.artifacts["metrics_path"]).exists()
     assert Path(result.artifacts["scored_output_path"]).exists()
+    assert Path(result.artifacts["segment_risk_path"]).exists()
+    assert Path(result.artifacts["retention_playbook_path"]).exists()

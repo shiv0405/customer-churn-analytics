@@ -1,9 +1,9 @@
-# Model Summary
+# Retention Intelligence Summary
 
 - Champion model: `logistic_regression`
 - Operating threshold: `0.75`
 
-## Test Metrics
+## Model Performance
 
 - `accuracy`: 0.9193
 - `precision`: 0.3095
@@ -11,6 +11,13 @@
 - `f1`: 0.4272
 - `roc_auc`: 0.9397
 - `average_precision`: 0.4845
+
+## Portfolio KPIs
+
+- Customers scored: `15000`
+- Critical account share: `9.7%`
+- Elevated or critical share: `17.7%`
+- Average churn probability: `24.9%`
 
 ## Top Features
 

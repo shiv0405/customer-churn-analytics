@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "customer-churn-analytics"
-version = "0.1.0"
-description = "Production-friendly churn analytics pipeline with synthetic enterprise-scale sample data."
+version = "0.2.0"
+description = "Production-oriented customer retention intelligence platform with synthetic enterprise portfolio data and batch scoring."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

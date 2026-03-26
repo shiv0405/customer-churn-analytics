@@ -1,0 +1,501 @@
+customer_id,region,contract_type,payment_method,internet_tier,age,tenure_months,monthly_charges,avg_monthly_usage_gb,autopay_enabled,paperless_billing,premium_support,streaming_bundle,support_tickets_90d,payment_failures_90d,service_incidents_30d,late_deliveries_90d,discount_pct,engagement_score,nps_score,days_since_last_login,cross_sell_products
+CUST-000001,APAC,month-to-month,credit-card,cable,19,44,53.68,514.5,0,1,0,0,0,0,0,0,14.7,44.0,24,5,1
+CUST-000002,Europe,month-to-month,bank-transfer,cable,67,50,60.02,716.82,1,1,0,0,1,0,2,2,15.07,94.6,39,12,0
+CUST-000003,APAC,month-to-month,invoice,fiber,25,15,98.43,330.57,0,1,0,1,4,1,1,1,13.64,42.2,43,9,1
+CUST-000004,APAC,two-year,credit-card,fiber,62,14,109.15,312.21,1,0,0,0,1,0,0,0,2.94,89.7,-19,12,1
+CUST-000005,North America,month-to-month,credit-card,fiber,20,96,92.54,466.54,1,1,0,1,1,0,1,0,13.95,53.7,-5,14,1
+CUST-000006,LATAM,month-to-month,bank-transfer,fiber,70,50,41.87,430.23,1,0,0,0,3,0,1,0,15.48,51.0,68,12,1
+CUST-000007,APAC,month-to-month,credit-card,cable,33,18,74.92,538.57,1,0,0,1,0,1,0,0,7.78,99.0,11,15,1
+CUST-000008,APAC,two-year,bank-transfer,fiber,74,23,131.28,,0,1,0,0,2,2,0,0,18.08,40.3,17,16,0
+CUST-000009,North America,month-to-month,credit-card,cable,46,40,94.3,306.16,1,1,0,1,1,0,0,0,17.83,70.2,7,10,0
+CUST-000010,Europe,month-to-month,digital-wallet,fiber,52,43,41.91,507.34,1,1,0,1,1,0,0,0,14.34,85.4,17,11,0
+CUST-000011,Europe,month-to-month,digital-wallet,cable,47,7,72.14,418.75,1,1,0,0,1,0,2,0,6.57,46.3,33,23,1
+CUST-000012,LATAM,month-to-month,bank-transfer,5g,62,33,41.95,542.83,0,1,0,1,3,2,1,0,9.3,76.6,61,7,1
+CUST-000013,APAC,two-year,digital-wallet,fiber,31,44,80.29,415.98,0,1,0,0,2,4,2,1,5.72,59.7,76,3,2
+CUST-000014,APAC,two-year,credit-card,5g,47,19,94.71,428.24,1,1,1,0,2,0,2,1,4.95,62.0,43,8,2
+CUST-000015,Europe,month-to-month,bank-transfer,cable,33,7,88.09,205.47,1,1,0,0,2,0,1,0,2.89,69.6,17,6,1
+CUST-000016,North America,two-year,bank-transfer,5g,65,41,82.55,314.34,1,1,0,1,2,0,0,0,6.72,68.2,38,8,3
+CUST-000017,Europe,month-to-month,credit-card,fiber,69,10,142.01,514.21,0,1,0,0,1,2,0,1,12.46,76.2,30,11,2
+CUST-000018,North America,two-year,credit-card,5g,50,55,97.29,674.4,1,1,0,0,1,1,1,0,,69.3,22,9,1
+CUST-000019,APAC,month-to-month,bank-transfer,fiber,55,13,83.5,593.64,1,1,0,1,3,2,0,0,9.27,85.8,59,16,2
+CUST-000020,Europe,month-to-month,bank-transfer,fiber,62,31,110.59,627.66,1,1,1,0,3,0,1,0,18.6,77.2,44,15,4
+CUST-000021,APAC,two-year,bank-transfer,5g,42,8,110.77,389.13,1,1,0,0,2,0,0,0,14.19,41.7,27,18,1
+CUST-000022,North America,two-year,credit-card,5g,35,30,101.88,467.99,0,1,0,0,1,0,0,0,0.0,73.0,10,12,1
+CUST-000023,LATAM,one-year,credit-card,fiber,74,27,157.81,452.87,1,1,1,1,2,0,1,1,16.47,81.9,61,4,4
+CUST-000024,LATAM,one-year,invoice,fiber,59,22,74.03,347.58,1,1,0,1,1,0,1,0,6.16,62.4,78,10,6
+CUST-000025,APAC,two-year,credit-card,5g,20,18,122.36,415.1,1,1,0,0,2,1,1,0,7.08,67.3,78,9,0
+CUST-000026,North America,one-year,invoice,cable,53,23,120.01,441.7,0,1,0,1,5,2,0,1,8.72,68.3,22,5,1
+CUST-000027,Europe,month-to-month,digital-wallet,fiber,45,19,57.11,304.13,1,1,0,0,2,1,1,1,15.79,54.0,46,10,0
+CUST-000028,North America,month-to-month,bank-transfer,fiber,33,39,105.16,463.54,1,1,0,1,4,0,3,1,12.87,72.5,47,15,1
+CUST-000029,North America,one-year,credit-card,fiber,65,31,68.94,472.67,0,0,0,1,1,0,1,0,7.51,61.7,34,6,4
+CUST-000030,APAC,one-year,digital-wallet,fiber,59,29,93.91,307.5,0,1,0,1,0,3,1,2,8.19,79.4,-31,9,4
+CUST-000031,APAC,two-year,invoice,cable,46,30,121.84,303.45,0,1,1,1,1,2,0,2,8.37,65.6,49,9,0
+CUST-000032,LATAM,month-to-month,digital-wallet,fiber,40,20,95.42,405.47,1,1,0,1,1,1,0,2,4.55,69.2,38,2,1
+CUST-000033,North America,month-to-month,digital-wallet,cable,32,34,39.45,433.63,1,0,0,1,2,1,0,0,9.28,99.0,49,2,2
+CUST-000034,Europe,month-to-month,bank-transfer,fiber,56,45,111.02,333.79,1,0,0,1,2,0,1,2,6.82,63.0,33,6,3
+CUST-000035,Europe,two-year,credit-card,cable,69,37,54.32,586.17,0,1,0,0,2,1,0,2,11.21,66.4,27,15,0
+CUST-000036,North America,month-to-month,invoice,fiber,57,44,80.63,755.79,0,1,0,1,0,2,0,1,9.96,83.4,89,14,3
+CUST-000037,North America,two-year,credit-card,cable,19,39,121.65,848.43,0,1,0,0,1,1,0,1,6.97,62.8,30,9,0
+CUST-000038,Europe,month-to-month,bank-transfer,cable,58,33,63.96,359.96,1,1,1,1,1,0,0,0,2.93,48.4,-9,0,3
+CUST-000039,North America,month-to-month,credit-card,cable,44,12,103.93,349.76,1,1,0,0,1,0,0,0,3.86,59.8,-18,20,1
+CUST-000040,APAC,two-year,digital-wallet,fiber,59,17,74.57,310.86,1,1,0,1,1,0,0,0,9.84,67.5,9,27,3
+CUST-000041,Europe,month-to-month,digital-wallet,5g,41,8,37.75,522.29,0,0,0,0,3,1,0,1,,96.8,0,17,0
+CUST-000042,APAC,two-year,bank-transfer,fiber,43,45,74.45,304.36,1,1,1,1,1,1,0,1,5.48,80.6,21,15,4
+CUST-000043,APAC,month-to-month,credit-card,fiber,45,12,75.97,484.85,1,1,0,0,1,0,1,0,10.66,99.0,41,15,3
+CUST-000044,North America,one-year,credit-card,cable,55,16,61.01,482.72,0,1,0,1,1,1,0,0,16.66,64.6,7,8,2
+CUST-000045,APAC,one-year,credit-card,fiber,68,21,92.5,557.19,1,1,0,0,0,1,1,0,5.66,49.3,-9,2,2
+CUST-000046,APAC,two-year,invoice,fiber,72,21,93.8,523.87,0,1,0,1,2,3,0,0,14.43,55.6,14,12,2
+CUST-000047,Europe,month-to-month,credit-card,5g,29,24,81.63,456.25,0,1,0,1,2,0,1,0,15.76,68.8,26,3,1
+CUST-000048,North America,month-to-month,invoice,fiber,23,45,82.32,372.47,0,1,1,0,4,1,0,2,12.76,57.6,23,11,0
+CUST-000049,APAC,one-year,credit-card,cable,68,33,108.27,520.11,1,1,0,0,1,0,0,0,8.89,74.9,21,14,0
+CUST-000050,North America,two-year,digital-wallet,cable,65,37,58.84,600.99,1,0,0,1,0,0,2,1,1.69,50.8,14,5,0
+CUST-000051,North America,two-year,bank-transfer,fiber,35,14,121.15,440.12,0,1,0,1,1,0,2,0,10.1,54.5,44,12,1
+CUST-000052,North America,two-year,digital-wallet,fiber,26,38,76.71,449.74,1,1,1,1,0,0,1,0,15.78,47.0,-10,3,4
+CUST-000053,APAC,one-year,bank-transfer,fiber,26,14,83.36,240.08,1,0,0,1,2,0,0,0,7.01,60.6,19,18,2
+CUST-000054,APAC,one-year,digital-wallet,cable,46,23,69.45,320.67,1,1,0,0,2,0,1,0,10.3,35.7,67,11,2
+CUST-000055,APAC,two-year,digital-wallet,cable,35,18,63.45,326.53,1,1,0,1,0,1,0,2,13.32,65.9,70,6,1
+CUST-000056,APAC,two-year,credit-card,fiber,28,19,116.51,348.45,0,1,0,1,1,1,1,0,7.56,82.7,4,7,3
+CUST-000057,Europe,two-year,invoice,cable,66,86,71.87,622.84,0,1,1,0,4,0,0,0,9.59,51.8,7,17,2
+CUST-000058,Europe,two-year,bank-transfer,cable,65,20,104.5,359.14,1,1,1,0,4,0,0,0,10.63,86.0,41,15,3
+CUST-000059,North America,two-year,credit-card,cable,50,6,101.85,439.68,1,1,1,0,3,1,2,0,9.75,89.4,43,0,1
+CUST-000060,North America,month-to-month,credit-card,fiber,21,44,85.94,402.45,1,0,0,1,2,2,0,0,4.82,81.7,39,9,0
+CUST-000061,APAC,month-to-month,bank-transfer,fiber,27,25,119.05,488.18,1,1,0,1,2,0,0,0,11.16,60.9,65,12,3
+CUST-000062,Europe,two-year,digital-wallet,fiber,60,37,94.42,347.54,1,1,0,0,3,2,2,0,6.92,71.4,57,13,0
+CUST-000063,Europe,one-year,digital-wallet,cable,41,15,39.23,229.21,0,1,0,0,1,0,0,0,11.91,66.4,39,7,4
+CUST-000064,APAC,month-to-month,credit-card,fiber,42,24,76.48,543.61,1,1,0,0,2,0,0,1,14.87,76.1,95,12,0
+CUST-000065,Europe,one-year,bank-transfer,cable,67,26,159.04,454.15,1,1,0,1,3,0,2,1,5.97,76.4,20,4,2
+CUST-000066,Europe,one-year,credit-card,5g,34,26,93.13,533.21,0,1,0,1,1,1,0,0,8.38,79.4,48,16,3
+CUST-000067,Europe,two-year,credit-card,fiber,76,25,90.02,550.9,0,1,0,0,1,0,1,0,11.91,99.0,69,7,2
+CUST-000068,North America,two-year,digital-wallet,fiber,75,42,116.61,311.97,1,1,1,0,1,0,0,0,9.22,77.7,41,4,0
+CUST-000069,North America,month-to-month,credit-card,fiber,54,46,127.08,445.33,1,1,0,1,1,2,1,0,6.11,73.4,25,5,2
+CUST-000070,Europe,month-to-month,credit-card,cable,36,15,69.21,317.82,1,0,0,0,1,0,1,0,14.74,72.5,52,5,2
+CUST-000071,North America,month-to-month,credit-card,fiber,77,44,92.45,129.07,0,0,0,0,2,1,0,0,6.43,65.2,-2,8,0
+CUST-000072,Europe,two-year,credit-card,5g,31,16,91.97,342.09,1,1,1,0,1,0,1,0,7.01,75.1,29,6,3
+CUST-000073,APAC,month-to-month,credit-card,fiber,70,35,56.83,319.99,1,1,1,0,1,1,1,0,14.58,63.9,25,15,0
+CUST-000074,North America,one-year,credit-card,5g,44,6,86.91,505.73,1,1,0,0,4,0,3,0,7.59,73.0,1,10,2
+CUST-000075,North America,one-year,bank-transfer,fiber,69,42,97.31,382.74,0,0,0,1,0,0,0,0,15.56,71.8,57,12,1
+CUST-000076,North America,one-year,invoice,cable,36,33,87.16,492.54,0,0,0,0,2,0,0,0,9.95,75.2,9,3,1
+CUST-000077,North America,one-year,credit-card,fiber,61,17,140.97,489.69,1,1,0,0,2,1,0,2,6.27,83.3,-25,8,3
+CUST-000078,APAC,one-year,digital-wallet,fiber,61,28,110.91,263.12,1,1,0,0,1,1,0,0,3.6,71.1,34,7,1
+CUST-000079,Europe,one-year,bank-transfer,5g,41,25,100.32,278.34,1,1,0,0,2,0,0,0,5.71,55.2,-7,10,4
+CUST-000080,APAC,month-to-month,credit-card,fiber,20,29,92.75,465.31,1,1,1,0,1,1,1,4,14.65,73.7,-7,3,1
+CUST-000081,APAC,month-to-month,credit-card,cable,36,30,110.45,249.95,1,1,0,1,2,0,0,0,10.33,65.3,22,6,1
+CUST-000082,Europe,one-year,credit-card,cable,59,25,86.35,315.68,0,1,1,0,3,1,3,0,16.08,85.9,25,2,3
+CUST-000083,APAC,month-to-month,digital-wallet,fiber,65,60,54.17,548.43,1,1,0,1,1,0,0,0,13.95,69.8,-23,11,1
+CUST-000084,North America,one-year,digital-wallet,fiber,43,20,62.07,391.27,1,1,0,0,3,0,0,0,14.83,94.6,25,9,1
+CUST-000085,North America,month-to-month,credit-card,5g,71,35,98.13,161.45,1,1,0,0,0,0,0,0,19.91,70.6,29,4,0
+CUST-000086,North America,two-year,credit-card,cable,65,32,123.13,232.93,1,1,0,0,1,0,0,1,8.04,74.9,24,10,1
+CUST-000087,APAC,month-to-month,credit-card,5g,24,21,81.42,561.63,1,0,0,0,2,0,0,2,0.5,65.9,5,12,2
+CUST-000088,Europe,one-year,bank-transfer,cable,38,56,114.13,492.28,1,1,0,0,1,0,0,1,13.38,55.0,55,4,5
+CUST-000089,North America,month-to-month,credit-card,cable,49,14,103.08,343.35,0,1,0,1,3,1,0,0,0.0,57.5,-12,4,2
+CUST-000090,Europe,one-year,bank-transfer,cable,20,39,120.52,438.0,0,1,0,0,2,0,0,0,10.06,48.5,22,15,2
+CUST-000091,North America,month-to-month,bank-transfer,fiber,35,35,64.79,524.81,0,1,0,0,1,0,1,0,6.0,61.5,13,2,1
+CUST-000092,APAC,one-year,bank-transfer,5g,64,33,63.96,295.71,1,1,0,0,2,1,2,1,7.14,76.1,25,25,4
+CUST-000093,Europe,month-to-month,credit-card,cable,69,27,135.25,468.95,1,1,1,0,2,0,0,1,5.09,66.6,55,12,2
+CUST-000094,Europe,two-year,bank-transfer,cable,26,44,49.8,302.29,0,1,0,0,0,3,0,0,9.53,65.2,24,10,0
+CUST-000095,North America,one-year,bank-transfer,5g,54,11,101.31,464.91,0,1,0,0,1,2,0,0,6.94,61.7,1,0,2
+CUST-000096,Europe,two-year,digital-wallet,fiber,47,17,130.58,,1,1,0,1,3,0,1,0,14.27,55.3,10,19,4
+CUST-000097,Europe,one-year,bank-transfer,fiber,69,34,102.31,560.89,1,0,0,0,1,0,0,1,7.97,55.9,88,6,1
+CUST-000098,North America,one-year,credit-card,fiber,68,17,126.78,385.11,0,0,0,0,3,0,1,1,14.65,51.7,-9,0,1
+CUST-000099,North America,two-year,credit-card,cable,75,15,124.69,,1,1,0,1,1,1,3,1,12.61,63.6,20,10,0
+CUST-000100,LATAM,month-to-month,digital-wallet,fiber,73,52,112.17,470.34,1,1,1,1,2,0,3,0,20.6,75.9,24,8,3
+CUST-000101,LATAM,one-year,bank-transfer,fiber,62,54,101.03,340.83,0,1,0,0,5,3,0,2,11.22,61.5,74,3,3
+CUST-000102,APAC,month-to-month,digital-wallet,cable,33,35,64.6,248.33,1,1,0,1,3,1,1,1,14.76,76.8,55,8,2
+CUST-000103,North America,one-year,bank-transfer,fiber,33,18,57.02,571.46,1,0,0,0,0,0,1,0,17.71,61.1,-9,15,2
+CUST-000104,LATAM,month-to-month,digital-wallet,fiber,68,20,86.73,407.31,1,1,0,0,5,0,1,0,2.71,,42,10,0
+CUST-000105,APAC,month-to-month,digital-wallet,fiber,60,30,46.97,381.3,1,1,0,1,0,0,0,2,9.09,69.5,-14,6,6
+CUST-000106,APAC,one-year,credit-card,fiber,64,24,106.54,476.0,1,1,0,0,1,1,1,2,13.68,70.2,44,9,0
+CUST-000107,Europe,month-to-month,credit-card,fiber,35,39,150.68,675.69,1,1,0,1,4,0,1,0,10.4,81.2,39,6,2
+CUST-000108,North America,month-to-month,invoice,fiber,73,13,93.08,151.41,0,1,0,1,3,1,2,0,9.8,61.6,95,6,1
+CUST-000109,North America,month-to-month,digital-wallet,fiber,29,13,101.01,647.69,1,1,1,1,1,0,1,1,14.54,70.4,26,0,2
+CUST-000110,LATAM,two-year,invoice,fiber,67,25,62.73,394.35,1,0,0,1,2,1,0,2,3.54,69.8,95,0,1
+CUST-000111,Europe,month-to-month,bank-transfer,5g,38,54,88.79,423.15,1,1,0,0,3,1,0,0,7.37,66.1,-4,0,0
+CUST-000112,North America,month-to-month,invoice,fiber,24,34,93.61,288.14,0,1,0,1,3,0,1,0,5.14,63.6,27,17,2
+CUST-000113,North America,two-year,credit-card,fiber,67,29,86.06,212.64,1,1,0,1,6,0,0,1,0.92,62.0,36,9,0
+CUST-000114,Europe,two-year,bank-transfer,cable,74,29,101.84,467.66,1,1,0,0,2,0,0,0,11.76,62.3,58,10,3
+CUST-000115,North America,month-to-month,bank-transfer,fiber,76,52,75.85,366.78,1,1,0,0,2,0,1,0,8.06,58.5,72,9,1
+CUST-000116,APAC,one-year,credit-card,fiber,20,68,94.98,335.73,1,1,0,0,1,0,0,2,6.09,43.5,40,9,0
+CUST-000117,APAC,month-to-month,credit-card,cable,45,13,103.57,300.83,1,1,0,0,1,0,1,0,4.53,84.9,16,17,0
+CUST-000118,APAC,two-year,credit-card,fiber,39,31,125.77,180.98,1,1,1,0,1,0,0,1,3.15,52.2,59,10,3
+CUST-000119,Europe,month-to-month,credit-card,5g,38,32,94.15,392.01,1,1,0,0,3,0,2,2,11.79,65.0,34,11,0
+CUST-000120,Europe,month-to-month,invoice,fiber,41,20,77.42,426.27,1,0,0,1,2,0,1,1,15.96,71.2,88,0,4
+CUST-000121,Europe,month-to-month,invoice,cable,20,16,88.41,497.69,0,1,0,0,4,3,0,0,,52.1,33,11,3
+CUST-000122,APAC,one-year,digital-wallet,5g,47,7,103.2,438.56,1,1,0,1,0,0,1,2,0.0,64.4,24,18,2
+CUST-000123,North America,month-to-month,invoice,5g,23,28,69.68,414.66,0,1,1,0,2,0,2,1,10.11,83.0,88,13,0
+CUST-000124,Europe,two-year,digital-wallet,fiber,32,65,74.33,273.48,0,1,0,0,3,1,0,0,3.9,,51,11,2
+CUST-000125,North America,month-to-month,invoice,cable,61,44,95.01,525.45,0,1,0,0,4,0,0,0,9.93,75.0,47,8,2
+CUST-000126,Europe,one-year,credit-card,fiber,26,28,42.6,365.47,0,1,0,0,5,0,1,0,13.16,67.4,19,0,0
+CUST-000127,North America,two-year,credit-card,cable,58,34,88.66,434.75,1,1,1,0,1,0,0,0,3.03,71.5,61,0,3
+CUST-000128,North America,month-to-month,digital-wallet,cable,68,27,81.03,318.83,1,1,0,1,1,0,0,0,10.01,83.9,64,6,3
+CUST-000129,North America,month-to-month,bank-transfer,fiber,76,27,105.97,519.45,0,1,0,0,3,0,0,0,15.19,57.9,7,10,3
+CUST-000130,Europe,month-to-month,digital-wallet,fiber,56,44,70.53,561.82,1,1,0,1,1,0,1,0,11.01,77.0,-18,15,3
+CUST-000131,North America,two-year,bank-transfer,cable,71,28,81.19,336.63,1,1,0,0,1,0,0,0,6.28,53.2,32,7,2
+CUST-000132,LATAM,month-to-month,credit-card,fiber,47,12,90.86,610.97,1,1,0,1,2,1,1,0,2.49,92.6,51,12,1
+CUST-000133,Europe,two-year,credit-card,cable,72,15,74.67,534.71,0,0,0,0,0,1,0,0,13.38,76.6,3,0,1
+CUST-000134,North America,one-year,digital-wallet,fiber,64,21,67.76,666.96,1,1,0,1,1,1,0,1,7.9,56.1,33,15,1
+CUST-000135,Europe,one-year,bank-transfer,cable,73,33,75.77,579.53,1,1,0,0,0,0,0,1,13.31,76.7,35,6,2
+CUST-000136,North America,one-year,credit-card,fiber,72,15,40.48,413.88,1,1,1,1,3,0,1,0,2.11,77.9,26,9,3
+CUST-000137,LATAM,month-to-month,bank-transfer,cable,59,7,67.57,258.44,0,0,0,0,5,1,0,1,12.24,44.6,28,4,1
+CUST-000138,Europe,month-to-month,credit-card,fiber,32,22,106.03,466.51,0,1,1,1,5,1,1,1,13.19,72.3,60,11,4
+CUST-000139,APAC,one-year,bank-transfer,cable,21,36,54.49,211.3,1,1,0,0,1,0,0,2,12.23,45.6,62,2,1
+CUST-000140,North America,month-to-month,bank-transfer,cable,38,46,65.39,539.1,1,1,0,0,1,0,1,2,10.1,58.3,43,15,1
+CUST-000141,Europe,one-year,bank-transfer,fiber,36,16,84.63,,1,1,0,1,1,0,0,0,13.14,62.5,27,14,4
+CUST-000142,Europe,two-year,invoice,cable,74,24,108.33,344.25,0,1,0,0,0,2,1,0,9.22,66.4,7,10,0
+CUST-000143,LATAM,month-to-month,bank-transfer,5g,21,13,60.88,384.18,1,1,0,1,3,0,0,0,16.52,76.5,28,11,3
+CUST-000144,Europe,month-to-month,invoice,fiber,51,20,75.49,579.48,0,0,0,1,4,2,1,0,11.63,70.7,33,4,0
+CUST-000145,Europe,month-to-month,digital-wallet,cable,77,8,123.96,464.96,1,1,0,0,2,1,0,1,1.83,69.8,50,9,1
+CUST-000146,North America,month-to-month,digital-wallet,fiber,35,11,95.26,407.8,1,1,1,0,2,1,2,0,10.44,49.4,62,3,3
+CUST-000147,North America,two-year,digital-wallet,cable,53,11,107.47,366.91,1,1,0,0,0,1,0,0,10.4,58.8,16,6,0
+CUST-000148,Europe,two-year,bank-transfer,5g,28,48,65.8,433.91,1,1,0,1,1,0,0,0,7.41,79.7,35,10,0
+CUST-000149,Europe,month-to-month,bank-transfer,cable,43,15,75.88,515.41,1,1,0,0,4,0,0,0,6.23,76.4,23,9,3
+CUST-000150,North America,two-year,bank-transfer,fiber,77,40,115.85,477.64,0,0,1,0,1,0,0,0,3.45,94.4,34,21,0
+CUST-000151,APAC,month-to-month,credit-card,fiber,58,11,99.86,285.64,0,1,0,1,4,3,0,2,9.81,78.0,14,1,3
+CUST-000152,LATAM,two-year,credit-card,cable,50,26,105.55,477.64,1,1,0,0,2,1,0,0,1.55,67.3,29,12,1
+CUST-000153,North America,two-year,credit-card,fiber,76,31,108.17,300.33,1,1,1,1,3,1,1,0,8.52,71.0,9,18,2
+CUST-000154,Europe,month-to-month,digital-wallet,cable,69,34,111.96,420.01,1,1,1,0,2,0,0,0,10.85,90.1,35,6,2
+CUST-000155,North America,one-year,credit-card,cable,35,6,82.2,167.34,1,1,0,1,0,1,1,0,12.84,92.9,6,10,0
+CUST-000156,APAC,two-year,bank-transfer,cable,56,35,65.35,372.69,1,0,0,1,2,0,1,0,12.83,84.0,22,4,1
+CUST-000157,North America,month-to-month,credit-card,fiber,57,38,74.76,337.92,1,0,0,0,1,0,0,0,11.81,57.2,9,14,1
+CUST-000158,APAC,month-to-month,credit-card,cable,45,3,81.46,270.05,0,1,1,0,3,1,3,0,8.93,67.0,7,14,2
+CUST-000159,APAC,one-year,bank-transfer,fiber,29,14,37.39,369.01,0,1,0,1,2,1,1,1,8.69,71.9,76,3,2
+CUST-000160,APAC,month-to-month,digital-wallet,fiber,69,36,103.0,530.0,1,1,0,1,4,0,0,0,9.43,66.9,-1,4,1
+CUST-000161,North America,month-to-month,credit-card,cable,28,63,112.59,324.42,1,0,0,0,2,0,3,0,,49.7,29,23,1
+CUST-000162,LATAM,month-to-month,invoice,cable,40,36,94.12,237.15,1,1,0,1,2,0,0,0,14.37,73.4,57,0,2
+CUST-000163,North America,one-year,credit-card,fiber,33,4,75.51,608.32,0,1,0,1,2,1,1,0,,81.9,-27,6,3
+CUST-000164,North America,month-to-month,bank-transfer,5g,64,35,93.84,366.66,0,1,1,1,3,1,0,2,2.03,83.0,47,14,6
+CUST-000165,Europe,one-year,credit-card,fiber,24,11,50.65,572.5,1,1,0,0,1,0,0,1,11.08,49.4,32,13,3
+CUST-000166,Europe,month-to-month,credit-card,fiber,45,31,48.44,290.09,0,1,0,0,4,0,1,0,7.5,82.5,25,1,0
+CUST-000167,APAC,month-to-month,credit-card,fiber,68,37,132.2,547.22,0,1,0,0,2,2,0,0,11.46,59.0,-10,9,3
+CUST-000168,APAC,one-year,credit-card,fiber,71,31,42.45,520.78,0,1,0,1,1,0,1,0,12.14,86.9,9,7,1
+CUST-000169,North America,month-to-month,digital-wallet,fiber,31,42,111.15,519.13,1,1,0,0,2,0,0,0,6.56,83.2,16,9,2
+CUST-000170,LATAM,one-year,bank-transfer,cable,48,16,124.65,486.72,1,1,0,0,3,0,0,1,9.9,82.2,48,6,1
+CUST-000171,North America,month-to-month,credit-card,cable,47,37,90.72,545.37,0,1,0,0,1,3,1,0,11.13,63.5,57,14,0
+CUST-000172,Europe,one-year,invoice,fiber,38,21,89.54,399.33,0,0,0,1,3,3,0,1,14.75,81.1,-5,14,4
+CUST-000173,North America,month-to-month,bank-transfer,fiber,66,37,95.34,388.71,1,0,1,1,2,1,0,0,12.31,,34,22,2
+CUST-000174,LATAM,two-year,credit-card,fiber,61,12,39.53,508.8,1,1,0,1,2,1,1,1,3.8,,15,12,3
+CUST-000175,North America,month-to-month,credit-card,fiber,23,17,76.03,629.62,1,1,0,0,0,0,0,0,4.15,71.3,33,9,0
+CUST-000176,North America,two-year,credit-card,cable,69,40,125.32,783.33,0,1,0,0,4,4,2,0,7.93,77.0,8,3,1
+CUST-000177,Europe,month-to-month,digital-wallet,cable,40,25,94.02,438.68,1,1,0,0,1,1,0,1,6.12,39.9,-5,11,0
+CUST-000178,LATAM,month-to-month,bank-transfer,cable,69,16,87.39,321.92,1,1,0,0,3,0,0,0,8.54,72.6,-13,10,0
+CUST-000179,LATAM,one-year,credit-card,fiber,64,41,92.9,401.77,1,1,0,0,0,0,0,1,19.15,66.4,92,9,1
+CUST-000180,APAC,month-to-month,credit-card,fiber,47,17,74.34,324.2,0,1,1,0,1,1,1,2,5.29,65.9,26,6,1
+CUST-000181,LATAM,month-to-month,credit-card,cable,58,34,61.53,410.88,1,1,0,0,3,0,2,1,15.62,58.8,12,12,1
+CUST-000182,LATAM,two-year,credit-card,cable,44,18,113.62,412.32,1,1,0,0,0,0,0,1,16.33,81.9,70,5,1
+CUST-000183,Europe,two-year,bank-transfer,fiber,64,63,68.67,452.26,1,1,0,1,6,1,0,0,12.52,50.9,43,9,3
+CUST-000184,North America,one-year,invoice,fiber,27,28,144.65,464.26,0,0,0,0,0,4,0,0,7.22,87.7,51,18,0
+CUST-000185,APAC,two-year,credit-card,5g,54,26,83.93,455.52,1,1,0,1,1,0,1,0,6.95,56.1,-8,17,1
+CUST-000186,APAC,month-to-month,credit-card,fiber,21,46,99.9,238.16,0,1,0,0,2,2,0,0,9.79,79.3,35,8,0
+CUST-000187,Europe,month-to-month,credit-card,5g,61,16,131.31,321.63,1,1,0,0,1,0,1,1,5.1,59.4,32,12,0
+CUST-000188,North America,two-year,credit-card,cable,73,39,102.5,,1,1,0,1,1,0,0,0,8.77,62.3,-9,3,3
+CUST-000189,APAC,month-to-month,bank-transfer,fiber,63,15,57.97,496.97,1,1,0,1,0,0,0,0,0.0,64.6,-10,11,3
+CUST-000190,North America,month-to-month,invoice,fiber,61,25,76.98,174.24,0,1,0,0,1,2,0,2,16.83,70.3,-4,8,0
+CUST-000191,LATAM,month-to-month,digital-wallet,5g,67,19,49.94,575.13,1,1,0,0,3,0,1,0,7.26,58.6,32,0,1
+CUST-000192,North America,month-to-month,credit-card,fiber,53,11,86.16,493.75,1,1,1,1,2,0,0,1,3.57,,32,4,0
+CUST-000193,North America,month-to-month,digital-wallet,fiber,55,12,66.19,443.56,1,0,0,0,2,0,2,2,5.14,64.0,29,10,0
+CUST-000194,APAC,month-to-month,digital-wallet,fiber,53,19,85.57,278.12,1,1,0,0,3,1,0,1,1.58,60.8,69,6,4
+CUST-000195,North America,one-year,credit-card,fiber,46,38,124.15,409.21,1,1,0,0,3,0,0,0,7.1,78.1,68,10,1
+CUST-000196,North America,one-year,invoice,cable,20,96,131.88,226.96,0,1,0,0,1,2,0,0,15.62,59.7,69,15,2
+CUST-000197,Europe,two-year,digital-wallet,fiber,23,12,48.7,523.26,0,1,1,1,1,0,0,0,1.11,67.5,-3,11,4
+CUST-000198,APAC,month-to-month,digital-wallet,cable,45,24,48.3,417.08,1,1,0,0,2,0,0,0,3.14,69.0,49,10,0
+CUST-000199,North America,month-to-month,bank-transfer,cable,35,21,92.7,612.74,0,1,0,0,2,0,0,1,,69.9,51,0,4
+CUST-000200,North America,one-year,credit-card,fiber,73,39,85.97,601.51,1,1,0,0,1,0,0,0,9.15,73.9,38,10,1
+CUST-000201,APAC,month-to-month,digital-wallet,cable,77,53,58.3,446.32,1,1,0,0,0,0,1,0,4.18,69.3,43,10,1
+CUST-000202,LATAM,month-to-month,bank-transfer,fiber,46,30,85.1,519.22,1,0,0,0,1,0,1,0,9.68,57.2,19,12,1
+CUST-000203,Europe,one-year,invoice,cable,60,12,89.95,622.12,0,1,0,1,4,1,0,0,9.83,48.2,19,11,3
+CUST-000204,North America,two-year,credit-card,fiber,53,21,82.45,229.18,1,0,1,1,5,0,0,0,6.78,71.7,58,18,2
+CUST-000205,North America,month-to-month,credit-card,cable,33,34,120.22,382.97,1,0,1,0,1,0,0,1,15.2,64.8,31,8,2
+CUST-000206,North America,one-year,digital-wallet,cable,41,22,116.15,400.72,0,1,1,0,0,5,1,0,14.61,42.9,38,15,2
+CUST-000207,North America,one-year,bank-transfer,cable,41,14,87.11,515.64,0,1,0,0,2,2,1,0,0.87,64.9,50,8,0
+CUST-000208,APAC,two-year,bank-transfer,fiber,25,26,120.66,446.29,1,0,0,1,4,0,0,0,13.19,74.6,95,17,2
+CUST-000209,North America,month-to-month,digital-wallet,fiber,20,22,112.02,437.64,1,1,0,1,0,0,0,0,12.54,64.5,55,14,1
+CUST-000210,Europe,one-year,digital-wallet,5g,38,30,92.99,246.22,1,1,0,0,1,0,0,0,13.17,82.1,42,15,3
+CUST-000211,APAC,one-year,bank-transfer,5g,72,40,28.15,324.08,1,1,1,1,2,0,1,1,9.93,51.1,-17,15,2
+CUST-000212,Europe,month-to-month,credit-card,cable,24,52,55.86,495.18,1,1,0,0,0,1,0,0,9.67,68.3,19,0,0
+CUST-000213,North America,one-year,bank-transfer,fiber,49,69,80.21,411.81,1,1,0,1,1,0,1,0,12.23,74.6,16,3,6
+CUST-000214,APAC,one-year,bank-transfer,fiber,53,85,101.72,367.0,1,1,0,0,2,1,0,1,5.22,59.1,17,17,1
+CUST-000215,APAC,month-to-month,digital-wallet,5g,58,10,57.94,384.14,0,1,0,0,2,1,1,0,13.54,58.1,2,0,0
+CUST-000216,APAC,month-to-month,bank-transfer,fiber,76,32,116.6,529.1,1,0,1,1,1,0,2,0,14.64,72.4,-28,8,4
+CUST-000217,North America,month-to-month,bank-transfer,cable,42,7,125.37,474.48,0,1,0,0,2,0,0,0,9.18,64.9,44,14,2
+CUST-000218,North America,one-year,credit-card,fiber,40,30,101.42,338.37,1,1,0,0,1,0,0,0,1.54,96.5,19,10,2
+CUST-000219,LATAM,month-to-month,credit-card,cable,49,38,102.49,,1,1,0,0,2,0,1,0,12.95,73.0,21,19,1
+CUST-000220,Europe,one-year,credit-card,fiber,69,10,108.02,416.58,1,1,0,0,1,0,3,1,7.83,72.5,-12,7,2
+CUST-000221,North America,month-to-month,bank-transfer,fiber,53,71,99.96,327.44,1,1,0,1,2,0,0,0,13.55,61.0,32,10,1
+CUST-000222,Europe,one-year,digital-wallet,fiber,21,11,92.1,320.07,0,1,0,0,2,0,0,0,14.03,63.8,85,12,4
+CUST-000223,APAC,one-year,invoice,5g,45,13,86.96,481.13,0,1,0,0,2,1,3,0,12.18,74.2,43,6,2
+CUST-000224,LATAM,one-year,bank-transfer,cable,48,38,112.61,535.27,0,1,1,0,3,1,0,1,12.96,65.4,33,2,1
+CUST-000225,North America,one-year,digital-wallet,cable,70,33,111.72,579.45,0,0,0,1,4,1,0,1,6.59,67.6,39,8,0
+CUST-000226,LATAM,month-to-month,bank-transfer,5g,57,33,56.83,519.63,1,1,0,1,0,0,1,0,6.3,82.1,34,5,3
+CUST-000227,North America,month-to-month,bank-transfer,fiber,59,3,89.53,465.83,1,1,0,0,2,0,2,0,4.5,81.0,33,4,3
+CUST-000228,Europe,one-year,bank-transfer,5g,37,34,102.29,285.23,0,1,0,0,1,1,1,2,7.76,72.5,56,0,3
+CUST-000229,Europe,month-to-month,credit-card,fiber,61,31,54.63,534.85,1,1,0,1,2,1,1,0,13.3,69.6,33,19,1
+CUST-000230,North America,one-year,bank-transfer,fiber,24,18,105.67,450.07,1,1,0,1,0,0,1,1,6.37,88.6,24,5,1
+CUST-000231,North America,one-year,invoice,fiber,30,8,86.09,514.49,0,1,1,1,0,0,2,0,0.74,85.5,31,12,5
+CUST-000232,Europe,two-year,bank-transfer,5g,31,26,137.71,445.87,1,1,0,0,1,1,0,0,14.39,61.2,11,3,0
+CUST-000233,LATAM,month-to-month,credit-card,cable,46,41,108.25,395.85,1,1,0,1,0,2,0,1,8.84,60.2,22,0,2
+CUST-000234,Europe,one-year,bank-transfer,fiber,23,49,93.1,404.82,0,1,0,0,2,2,1,3,4.75,70.4,28,2,0
+CUST-000235,LATAM,month-to-month,invoice,5g,49,21,101.52,453.38,0,0,0,1,8,3,3,0,10.83,49.9,43,12,1
+CUST-000236,APAC,two-year,credit-card,cable,71,53,93.62,,0,1,0,1,4,0,1,2,15.95,69.6,-6,6,1
+CUST-000237,Europe,one-year,invoice,cable,42,8,53.35,233.5,0,1,1,0,3,1,1,0,7.95,84.0,18,4,3
+CUST-000238,APAC,one-year,invoice,cable,19,41,89.33,662.34,0,1,0,1,4,3,0,0,11.87,74.1,44,0,6
+CUST-000239,North America,one-year,bank-transfer,fiber,35,25,50.97,305.69,1,1,0,0,1,1,0,0,4.36,37.7,76,0,1
+CUST-000240,North America,month-to-month,credit-card,fiber,23,7,83.17,185.28,0,1,0,1,4,0,0,0,13.75,62.8,64,6,2
+CUST-000241,APAC,one-year,credit-card,cable,56,48,94.26,351.52,1,1,0,0,2,0,0,2,13.31,69.8,20,21,1
+CUST-000242,APAC,two-year,credit-card,fiber,65,25,61.1,272.7,1,1,0,0,4,0,1,1,10.72,73.9,18,7,0
+CUST-000243,North America,month-to-month,credit-card,cable,36,43,88.87,776.77,1,1,0,0,2,0,3,0,1.72,42.9,21,11,2
+CUST-000244,Europe,two-year,digital-wallet,cable,36,24,126.44,390.07,1,1,0,1,2,0,0,3,13.67,83.1,29,16,0
+CUST-000245,Europe,two-year,invoice,cable,37,23,77.67,529.97,0,1,1,0,4,2,1,2,10.44,68.2,0,9,1
+CUST-000246,APAC,two-year,credit-card,cable,40,18,67.91,428.6,1,1,0,0,1,0,1,0,3.19,55.2,38,0,3
+CUST-000247,Europe,two-year,bank-transfer,fiber,60,26,117.27,136.63,1,1,0,1,2,0,0,0,4.19,69.2,6,2,1
+CUST-000248,Europe,month-to-month,bank-transfer,fiber,37,34,96.11,,1,0,0,1,2,0,1,0,16.45,60.5,-3,8,3
+CUST-000249,Europe,one-year,credit-card,fiber,41,24,90.09,263.71,1,1,1,1,1,0,0,0,6.17,60.1,-16,8,4
+CUST-000250,Europe,month-to-month,bank-transfer,fiber,71,11,103.71,469.86,1,1,0,1,2,2,1,1,0.0,69.0,29,10,4
+CUST-000251,APAC,one-year,invoice,fiber,63,32,94.81,226.77,0,0,1,1,1,1,1,1,4.78,67.4,66,19,3
+CUST-000252,APAC,month-to-month,bank-transfer,fiber,73,32,72.4,435.46,1,1,0,1,2,0,0,1,4.86,63.0,33,1,1
+CUST-000253,Europe,two-year,credit-card,fiber,40,11,63.27,392.91,0,1,1,1,1,0,2,0,14.67,36.5,9,13,1
+CUST-000254,North America,month-to-month,bank-transfer,fiber,73,17,133.96,382.96,1,1,1,1,2,1,1,0,5.77,78.1,77,3,5
+CUST-000255,North America,month-to-month,credit-card,5g,36,10,102.22,407.1,0,1,0,0,4,4,0,1,4.24,65.6,29,14,3
+CUST-000256,APAC,month-to-month,invoice,fiber,37,26,128.49,336.23,0,1,1,1,1,2,0,1,10.74,79.0,-2,5,3
+CUST-000257,APAC,one-year,invoice,fiber,75,38,85.11,118.66,0,1,0,0,1,0,0,1,3.33,63.9,-18,4,2
+CUST-000258,North America,month-to-month,credit-card,cable,30,35,120.7,504.25,1,1,0,1,0,1,1,0,14.34,55.8,58,4,0
+CUST-000259,North America,month-to-month,bank-transfer,fiber,67,8,72.08,552.45,1,1,0,1,0,0,0,0,1.16,57.1,79,0,1
+CUST-000260,Europe,month-to-month,digital-wallet,cable,67,26,53.08,447.62,1,1,0,0,1,1,1,0,5.82,49.1,46,12,4
+CUST-000261,North America,month-to-month,bank-transfer,cable,73,12,102.27,224.97,1,1,0,1,2,0,0,0,7.01,62.2,45,17,1
+CUST-000262,APAC,two-year,bank-transfer,cable,69,10,113.45,356.67,1,1,0,0,0,1,1,0,7.53,77.4,72,0,0
+CUST-000263,North America,month-to-month,invoice,fiber,67,26,116.21,438.26,0,1,0,0,1,4,0,0,4.01,56.7,-18,15,1
+CUST-000264,North America,month-to-month,credit-card,fiber,39,18,101.18,281.82,1,1,0,1,1,0,0,0,13.66,55.8,24,12,3
+CUST-000265,LATAM,month-to-month,bank-transfer,5g,51,65,74.65,484.01,0,1,0,1,0,0,1,0,6.17,45.9,61,8,0
+CUST-000266,North America,month-to-month,credit-card,5g,53,69,100.25,524.16,0,1,0,0,2,1,1,1,5.76,71.4,48,21,2
+CUST-000267,North America,month-to-month,credit-card,cable,36,37,99.88,318.91,1,1,0,0,2,0,0,1,7.54,60.3,55,6,3
+CUST-000268,North America,month-to-month,digital-wallet,fiber,42,18,89.25,560.87,1,0,0,1,4,0,1,1,8.66,81.2,17,4,5
+CUST-000269,North America,month-to-month,digital-wallet,fiber,69,6,80.13,340.78,1,1,0,1,3,0,2,1,15.19,84.5,36,12,0
+CUST-000270,North America,month-to-month,bank-transfer,cable,19,17,63.88,387.7,0,1,0,0,2,0,2,0,0.29,49.4,30,16,3
+CUST-000271,North America,month-to-month,credit-card,fiber,23,41,95.9,407.96,1,1,0,0,3,1,0,1,13.6,77.7,48,4,1
+CUST-000272,North America,one-year,digital-wallet,5g,43,20,96.73,557.11,1,1,0,0,1,0,1,1,1.44,63.4,3,22,0
+CUST-000273,North America,month-to-month,credit-card,5g,64,8,55.75,382.86,1,1,0,0,2,0,1,0,5.85,64.7,23,4,2
+CUST-000274,Europe,one-year,bank-transfer,fiber,71,58,137.68,578.77,0,1,0,1,0,0,1,0,9.84,70.7,31,12,4
+CUST-000275,APAC,one-year,credit-card,fiber,59,14,56.57,303.44,1,1,0,0,2,0,0,1,7.17,58.4,42,11,1
+CUST-000276,Europe,two-year,bank-transfer,fiber,69,15,74.79,698.2,0,0,0,1,0,0,1,1,13.33,73.9,34,11,4
+CUST-000277,North America,month-to-month,bank-transfer,fiber,27,51,96.95,238.05,1,1,0,1,3,0,0,1,6.1,57.1,17,12,3
+CUST-000278,Europe,two-year,credit-card,fiber,25,29,100.15,481.09,1,1,1,1,1,0,0,0,20.02,57.1,35,1,3
+CUST-000279,APAC,two-year,bank-transfer,cable,48,30,71.21,359.75,1,0,0,0,2,0,1,1,12.4,73.3,57,1,1
+CUST-000280,APAC,two-year,credit-card,fiber,37,30,68.31,120.2,1,0,0,0,2,0,1,2,10.51,74.2,28,1,1
+CUST-000281,North America,two-year,digital-wallet,fiber,70,13,88.4,464.26,0,1,1,1,1,2,0,0,15.69,64.5,32,6,0
+CUST-000282,North America,month-to-month,bank-transfer,fiber,23,36,90.18,485.0,1,1,0,0,2,1,2,1,7.35,77.3,54,15,2
+CUST-000283,North America,two-year,digital-wallet,fiber,40,45,125.21,538.39,1,1,0,1,0,0,0,0,6.96,75.1,43,0,4
+CUST-000284,North America,two-year,credit-card,fiber,36,27,65.02,349.32,0,1,0,0,3,1,0,2,0.0,51.0,9,12,1
+CUST-000285,Europe,month-to-month,credit-card,5g,53,23,92.54,425.91,1,1,0,0,0,1,1,0,5.45,78.6,95,1,4
+CUST-000286,Europe,month-to-month,credit-card,fiber,36,53,87.06,509.46,1,1,0,1,1,0,0,0,10.7,61.4,49,11,1
+CUST-000287,North America,two-year,credit-card,cable,74,42,99.97,386.91,0,1,0,1,2,1,0,0,12.88,68.9,59,5,3
+CUST-000288,Europe,month-to-month,bank-transfer,fiber,22,14,84.27,343.07,1,1,1,0,1,1,0,0,13.44,63.1,45,21,1
+CUST-000289,Europe,one-year,credit-card,cable,23,39,116.23,432.62,1,0,0,0,2,2,0,0,4.8,99.0,80,10,1
+CUST-000290,North America,month-to-month,credit-card,fiber,71,23,107.08,607.62,1,1,0,1,2,0,0,0,9.12,70.0,65,22,3
+CUST-000291,APAC,one-year,credit-card,fiber,50,30,122.3,342.91,1,1,0,1,1,0,0,1,0.0,72.3,13,8,0
+CUST-000292,North America,month-to-month,bank-transfer,fiber,68,66,93.86,383.96,1,1,0,1,0,0,0,0,6.68,86.8,79,15,1
+CUST-000293,LATAM,one-year,digital-wallet,cable,46,8,90.56,284.78,1,1,1,1,2,0,0,0,7.66,56.8,33,15,0
+CUST-000294,North America,one-year,bank-transfer,fiber,73,5,81.32,426.66,1,1,0,1,1,0,0,1,14.53,68.6,34,7,0
+CUST-000295,APAC,two-year,invoice,fiber,46,17,55.17,539.43,0,1,1,0,1,2,1,2,9.64,80.0,34,17,2
+CUST-000296,LATAM,month-to-month,credit-card,cable,62,23,99.91,,1,1,1,1,0,0,2,1,11.24,69.1,26,13,3
+CUST-000297,LATAM,month-to-month,bank-transfer,cable,77,15,101.58,376.6,0,0,1,1,3,1,2,0,,85.2,86,0,6
+CUST-000298,APAC,month-to-month,credit-card,fiber,63,37,104.24,536.76,1,0,0,0,2,0,1,0,10.39,66.5,46,15,2
+CUST-000299,APAC,month-to-month,digital-wallet,fiber,34,33,81.39,349.08,0,1,0,0,2,1,1,2,13.23,75.8,45,7,0
+CUST-000300,APAC,two-year,credit-card,cable,65,26,62.94,330.61,1,0,0,0,2,0,0,0,12.53,61.4,11,1,1
+CUST-000301,APAC,month-to-month,invoice,fiber,41,31,71.35,337.79,1,1,0,1,2,1,1,0,2.55,60.7,-13,0,1
+CUST-000302,North America,month-to-month,digital-wallet,fiber,58,30,96.26,491.1,1,1,0,0,0,1,0,0,12.29,57.7,33,4,1
+CUST-000303,Europe,two-year,bank-transfer,fiber,57,56,117.42,427.73,1,0,0,0,1,0,0,0,9.79,99.0,21,11,1
+CUST-000304,Europe,month-to-month,bank-transfer,cable,29,13,52.93,549.98,1,1,0,0,3,2,0,3,14.84,79.8,73,13,1
+CUST-000305,APAC,month-to-month,credit-card,5g,35,29,129.67,356.54,1,0,0,0,3,0,0,0,0.2,93.1,78,0,0
+CUST-000306,Europe,one-year,credit-card,cable,29,50,40.22,421.91,1,1,1,0,1,0,1,0,14.91,84.6,2,0,1
+CUST-000307,Europe,month-to-month,invoice,cable,23,22,134.99,399.9,1,0,0,0,2,0,2,0,10.74,66.2,56,3,4
+CUST-000308,Europe,two-year,digital-wallet,cable,48,26,65.96,463.85,1,0,0,0,2,0,2,0,0.63,87.0,51,17,1
+CUST-000309,North America,one-year,credit-card,fiber,30,41,125.97,213.86,1,0,0,1,1,1,0,0,5.71,70.9,35,9,0
+CUST-000310,North America,month-to-month,credit-card,5g,59,6,80.19,415.42,1,0,1,0,3,0,1,1,6.02,87.0,39,13,1
+CUST-000311,Europe,one-year,credit-card,fiber,32,45,124.86,466.95,1,1,0,1,0,0,0,0,11.75,55.2,10,8,4
+CUST-000312,Europe,two-year,digital-wallet,cable,20,32,35.4,40.0,1,1,0,1,1,1,0,0,1.69,81.9,68,0,2
+CUST-000313,North America,month-to-month,bank-transfer,fiber,27,39,105.02,342.15,0,1,0,0,2,1,2,0,15.41,69.8,3,10,4
+CUST-000314,Europe,one-year,bank-transfer,cable,51,37,115.57,408.24,0,1,0,0,2,1,0,0,8.0,,-6,8,1
+CUST-000315,Europe,month-to-month,credit-card,5g,26,9,98.39,472.43,1,1,1,0,1,0,3,0,1.34,75.1,33,1,1
+CUST-000316,North America,one-year,invoice,5g,71,10,105.26,577.08,0,1,1,0,2,1,0,0,17.73,75.7,23,3,1
+CUST-000317,Europe,one-year,credit-card,5g,63,4,116.22,693.11,0,0,0,1,4,1,2,0,6.94,54.7,63,5,1
+CUST-000318,APAC,month-to-month,credit-card,cable,26,9,95.81,432.5,1,1,1,0,1,0,0,1,7.04,59.9,39,12,1
+CUST-000319,North America,month-to-month,invoice,fiber,69,13,80.39,492.03,0,1,0,1,2,0,0,0,17.02,59.4,6,15,2
+CUST-000320,LATAM,month-to-month,digital-wallet,fiber,37,26,59.89,387.62,1,1,0,0,3,1,2,1,12.69,43.9,46,10,0
+CUST-000321,LATAM,one-year,bank-transfer,fiber,71,52,113.79,506.17,1,1,0,0,3,1,0,1,20.76,58.0,59,6,1
+CUST-000322,Europe,one-year,digital-wallet,fiber,77,21,117.73,397.15,1,0,0,1,1,1,1,1,8.08,55.8,33,18,1
+CUST-000323,North America,month-to-month,credit-card,fiber,33,25,108.14,661.0,0,1,0,1,1,3,0,1,9.24,86.7,19,8,1
+CUST-000324,Europe,month-to-month,credit-card,fiber,38,24,109.97,595.43,1,1,0,0,3,0,2,1,6.85,70.2,67,15,1
+CUST-000325,APAC,two-year,credit-card,5g,27,34,97.66,433.37,1,1,0,1,0,0,3,0,3.31,53.8,25,11,3
+CUST-000326,APAC,month-to-month,credit-card,cable,20,17,80.85,368.89,1,1,0,0,2,0,0,1,5.61,92.9,18,12,1
+CUST-000327,APAC,month-to-month,digital-wallet,fiber,49,24,119.02,436.75,1,1,0,0,2,0,0,2,18.17,56.2,31,7,6
+CUST-000328,Europe,month-to-month,bank-transfer,cable,59,43,80.05,359.01,1,0,1,0,0,0,0,0,18.21,76.1,22,10,0
+CUST-000329,Europe,one-year,bank-transfer,cable,51,53,94.56,437.82,1,1,0,1,0,0,1,1,5.54,41.4,39,0,4
+CUST-000330,North America,month-to-month,digital-wallet,5g,76,51,104.93,267.5,0,1,0,0,5,1,2,0,8.01,39.1,15,12,0
+CUST-000331,APAC,two-year,credit-card,fiber,25,47,125.0,591.4,1,1,1,0,5,0,0,0,16.93,72.4,24,17,2
+CUST-000332,North America,one-year,credit-card,cable,32,49,25.0,340.81,1,1,0,0,0,1,0,1,9.42,91.4,49,7,0
+CUST-000333,APAC,month-to-month,credit-card,fiber,71,26,112.75,495.12,1,1,0,0,2,0,1,0,8.56,74.2,47,5,1
+CUST-000334,APAC,one-year,digital-wallet,5g,31,16,81.06,129.75,1,1,0,0,1,1,0,1,10.4,87.2,29,5,3
+CUST-000335,North America,month-to-month,bank-transfer,5g,40,31,103.92,310.64,0,1,0,0,1,4,1,0,13.09,72.9,41,11,0
+CUST-000336,Europe,month-to-month,invoice,fiber,44,34,46.59,637.15,0,1,0,1,3,1,1,0,12.81,70.4,70,0,1
+CUST-000337,North America,one-year,digital-wallet,fiber,31,22,73.85,463.22,1,1,0,0,2,0,0,0,6.74,61.9,35,24,1
+CUST-000338,APAC,month-to-month,digital-wallet,fiber,50,17,119.97,620.45,1,1,0,0,1,0,1,0,0.71,66.1,43,6,1
+CUST-000339,North America,two-year,digital-wallet,fiber,65,50,119.99,408.48,0,1,0,1,0,0,0,0,10.17,65.0,26,6,0
+CUST-000340,LATAM,one-year,bank-transfer,fiber,67,25,87.21,,1,0,0,1,1,0,0,0,5.46,,20,14,1
+CUST-000341,North America,month-to-month,invoice,cable,46,21,132.69,536.08,1,0,0,0,3,0,1,1,3.91,43.2,60,3,1
+CUST-000342,LATAM,two-year,bank-transfer,fiber,77,22,91.73,433.99,1,1,1,1,1,1,0,0,4.69,77.0,84,11,3
+CUST-000343,APAC,one-year,credit-card,cable,37,29,99.68,396.68,1,1,0,0,1,0,0,3,6.36,94.1,82,5,3
+CUST-000344,Europe,month-to-month,credit-card,cable,66,17,71.89,631.33,1,1,0,1,3,2,0,0,2.34,68.1,15,13,0
+CUST-000345,APAC,one-year,digital-wallet,cable,70,33,80.78,625.24,0,1,0,0,3,1,0,0,5.18,63.3,13,5,1
+CUST-000346,APAC,two-year,credit-card,fiber,36,3,101.74,593.37,1,1,0,1,0,0,0,0,11.19,88.0,52,3,4
+CUST-000347,LATAM,month-to-month,digital-wallet,cable,22,11,36.06,360.32,1,1,0,0,2,1,1,0,17.64,77.2,60,8,1
+CUST-000348,North America,month-to-month,invoice,cable,65,20,94.2,40.0,0,1,0,0,2,3,1,1,11.8,68.1,-27,12,0
+CUST-000349,Europe,month-to-month,credit-card,fiber,24,35,102.4,329.63,1,0,0,1,1,0,0,0,25.34,67.6,4,12,1
+CUST-000350,North America,month-to-month,credit-card,fiber,56,20,91.93,388.98,1,0,1,1,0,0,1,1,8.4,63.1,95,19,3
+CUST-000351,Europe,month-to-month,credit-card,cable,48,45,126.39,308.41,1,0,0,0,2,1,0,0,8.94,75.9,21,5,2
+CUST-000352,North America,one-year,bank-transfer,fiber,47,52,80.28,349.5,1,0,0,1,1,0,0,0,10.53,69.3,-6,11,1
+CUST-000353,Europe,two-year,bank-transfer,fiber,62,24,86.14,510.87,1,1,0,1,1,0,1,2,3.71,92.7,25,7,2
+CUST-000354,Europe,one-year,credit-card,fiber,56,14,82.19,259.09,1,1,0,1,1,0,1,0,14.17,65.5,79,0,2
+CUST-000355,Europe,month-to-month,bank-transfer,5g,54,24,84.59,286.65,1,0,0,0,2,0,0,2,7.59,90.8,-3,10,2
+CUST-000356,Europe,month-to-month,bank-transfer,cable,44,44,87.96,362.96,1,1,0,0,2,0,2,0,4.19,50.6,31,11,2
+CUST-000357,APAC,month-to-month,credit-card,cable,60,13,78.41,,1,1,0,0,3,0,2,1,11.25,70.8,-6,6,2
+CUST-000358,APAC,month-to-month,credit-card,fiber,56,37,118.8,648.02,0,1,0,0,3,2,2,0,5.68,78.2,55,0,3
+CUST-000359,Europe,one-year,credit-card,cable,53,23,125.31,356.24,1,1,0,0,3,2,0,2,8.3,68.4,70,7,1
+CUST-000360,Europe,month-to-month,digital-wallet,fiber,62,38,119.32,586.8,1,0,1,0,4,0,3,3,2.49,56.9,95,14,1
+CUST-000361,LATAM,two-year,credit-card,5g,26,33,108.94,410.12,1,1,1,0,3,0,1,0,,73.8,58,9,1
+CUST-000362,North America,month-to-month,credit-card,cable,19,18,68.44,478.25,1,1,0,0,3,0,0,1,20.28,78.0,43,12,0
+CUST-000363,North America,one-year,bank-transfer,cable,21,24,89.95,530.27,0,1,0,0,1,2,0,0,0.0,94.8,15,3,4
+CUST-000364,North America,two-year,bank-transfer,5g,55,34,141.88,,0,1,1,0,3,0,3,2,19.89,40.4,76,12,2
+CUST-000365,APAC,one-year,digital-wallet,5g,63,43,86.66,315.0,0,1,1,1,2,0,1,0,10.89,88.9,11,2,1
+CUST-000366,Europe,two-year,credit-card,fiber,28,23,101.24,466.78,1,1,0,0,2,0,0,0,17.28,69.3,-20,10,0
+CUST-000367,APAC,two-year,bank-transfer,fiber,22,44,55.91,509.88,1,1,0,1,0,0,1,1,10.36,85.3,17,5,2
+CUST-000368,APAC,one-year,digital-wallet,cable,38,71,104.79,252.64,1,1,0,1,2,0,0,0,11.86,80.3,59,4,1
+CUST-000369,North America,month-to-month,digital-wallet,fiber,65,45,75.62,212.14,1,1,0,0,3,0,0,0,5.36,69.1,-11,3,0
+CUST-000370,LATAM,month-to-month,bank-transfer,fiber,45,26,85.47,191.79,1,0,0,1,2,0,0,0,11.98,77.7,24,9,2
+CUST-000371,APAC,two-year,digital-wallet,fiber,58,25,25.67,156.17,1,1,0,0,3,0,1,0,10.53,46.6,62,4,4
+CUST-000372,North America,month-to-month,credit-card,cable,76,9,90.58,322.92,1,1,0,1,3,1,0,0,16.37,49.6,41,0,2
+CUST-000373,Europe,two-year,bank-transfer,cable,49,23,113.38,501.38,1,1,1,0,1,2,1,0,17.17,52.6,29,2,2
+CUST-000374,North America,month-to-month,digital-wallet,fiber,38,37,114.37,338.36,1,1,0,1,1,1,0,0,5.62,61.1,36,5,0
+CUST-000375,North America,one-year,credit-card,cable,20,43,82.41,380.17,1,1,0,0,2,0,1,1,4.77,66.9,80,7,3
+CUST-000376,North America,month-to-month,credit-card,fiber,67,13,110.33,360.19,0,0,1,1,3,1,0,1,8.97,70.1,24,0,6
+CUST-000377,LATAM,two-year,bank-transfer,5g,63,33,114.95,521.0,0,1,0,0,4,1,0,0,13.58,52.7,76,15,2
+CUST-000378,Europe,month-to-month,invoice,fiber,38,48,73.42,,0,1,0,1,2,1,0,1,12.25,89.1,32,3,0
+CUST-000379,Europe,month-to-month,credit-card,5g,56,12,115.11,453.56,1,1,0,0,3,1,0,1,7.68,89.0,84,13,2
+CUST-000380,APAC,two-year,digital-wallet,5g,32,30,83.89,,1,1,1,0,0,0,1,0,3.27,73.7,56,7,0
+CUST-000381,Europe,month-to-month,credit-card,cable,58,18,60.08,379.4,1,1,0,0,3,0,1,0,5.41,67.4,95,11,1
+CUST-000382,LATAM,month-to-month,digital-wallet,cable,44,11,75.14,485.28,0,1,0,0,1,3,0,0,3.38,53.2,57,12,2
+CUST-000383,APAC,two-year,digital-wallet,fiber,30,24,97.13,359.06,0,1,1,1,0,0,1,0,9.34,47.9,55,12,5
+CUST-000384,Europe,two-year,digital-wallet,fiber,24,9,55.72,269.99,0,1,0,1,0,4,1,1,4.71,63.9,22,19,3
+CUST-000385,Europe,month-to-month,invoice,fiber,20,18,42.45,476.05,0,1,1,1,1,1,1,1,10.92,49.9,24,11,2
+CUST-000386,LATAM,one-year,invoice,cable,67,27,101.26,413.27,0,1,0,0,2,1,1,1,1.01,61.7,64,7,0
+CUST-000387,APAC,month-to-month,invoice,5g,23,43,100.29,384.82,0,1,0,0,4,2,0,0,9.63,57.1,24,9,1
+CUST-000388,LATAM,month-to-month,bank-transfer,fiber,48,13,85.3,445.29,1,1,0,0,2,0,1,1,7.86,65.1,21,5,1
+CUST-000389,North America,one-year,bank-transfer,fiber,26,22,94.01,434.18,1,1,0,0,1,2,3,0,8.49,61.1,33,16,3
+CUST-000390,APAC,month-to-month,credit-card,cable,59,43,107.55,391.8,1,1,0,0,4,2,0,0,10.6,79.3,57,5,1
+CUST-000391,Europe,month-to-month,credit-card,fiber,41,16,50.74,167.58,1,0,0,1,1,0,1,0,11.03,85.3,6,12,2
+CUST-000392,North America,month-to-month,bank-transfer,cable,66,11,27.28,312.34,1,1,0,1,4,0,0,0,7.35,65.5,66,12,3
+CUST-000393,Europe,two-year,credit-card,fiber,24,52,111.25,393.2,1,0,1,1,2,0,0,0,18.41,79.0,70,18,3
+CUST-000394,APAC,one-year,invoice,cable,43,25,100.69,439.41,1,1,1,1,1,0,2,1,10.81,64.9,28,0,3
+CUST-000395,North America,month-to-month,credit-card,fiber,42,44,104.38,440.02,1,1,1,1,1,1,1,0,10.97,86.5,19,31,2
+CUST-000396,Europe,two-year,credit-card,cable,45,17,71.69,284.44,0,1,0,1,2,1,1,0,3.03,,18,11,4
+CUST-000397,APAC,two-year,credit-card,fiber,35,38,96.25,370.85,0,1,0,0,2,0,0,1,9.85,83.7,13,0,0
+CUST-000398,North America,month-to-month,credit-card,fiber,33,44,117.11,40.0,1,0,1,1,1,0,1,0,15.62,76.4,95,15,2
+CUST-000399,Europe,two-year,credit-card,cable,75,19,96.57,454.09,0,1,1,0,0,0,0,0,14.35,64.8,72,16,0
+CUST-000400,Europe,month-to-month,bank-transfer,fiber,61,36,79.16,524.84,1,1,1,1,5,3,2,0,7.4,87.0,30,13,0
+CUST-000401,North America,month-to-month,credit-card,cable,45,16,96.94,569.93,1,1,1,0,2,0,0,2,15.4,84.6,48,7,5
+CUST-000402,LATAM,month-to-month,digital-wallet,cable,68,51,123.82,268.06,1,1,1,1,2,2,0,2,6.74,75.9,64,5,1
+CUST-000403,APAC,month-to-month,credit-card,fiber,23,17,95.45,275.4,1,1,0,1,0,0,0,0,2.89,68.3,26,6,1
+CUST-000404,North America,one-year,digital-wallet,cable,52,53,64.48,537.89,1,1,0,0,1,0,0,0,3.39,53.2,49,5,0
+CUST-000405,LATAM,one-year,digital-wallet,fiber,59,33,132.85,559.25,0,1,0,1,4,0,1,1,15.1,66.1,56,9,1
+CUST-000406,APAC,two-year,credit-card,fiber,21,22,84.29,373.03,1,1,1,1,2,0,1,0,8.33,52.3,27,11,1
+CUST-000407,North America,month-to-month,credit-card,fiber,60,57,74.92,429.15,1,1,0,0,2,1,0,0,11.55,64.0,-15,4,1
+CUST-000408,APAC,month-to-month,digital-wallet,fiber,60,18,76.66,482.31,1,1,0,0,3,1,1,0,15.43,75.7,30,7,3
+CUST-000409,North America,month-to-month,digital-wallet,cable,50,70,103.57,248.72,1,1,0,1,1,0,0,1,8.37,53.1,20,14,2
+CUST-000410,LATAM,month-to-month,credit-card,cable,58,37,77.01,481.69,1,1,1,0,3,0,1,2,10.22,63.6,70,12,1
+CUST-000411,APAC,two-year,bank-transfer,fiber,74,12,52.21,533.7,1,0,0,1,2,1,2,0,3.72,90.2,32,2,1
+CUST-000412,APAC,one-year,credit-card,fiber,39,20,102.34,381.8,1,1,0,0,1,0,0,0,15.04,87.3,30,12,1
+CUST-000413,North America,two-year,credit-card,fiber,31,23,96.68,627.17,1,0,1,1,2,0,0,0,5.49,71.5,5,11,2
+CUST-000414,LATAM,one-year,credit-card,cable,43,71,93.87,370.05,1,1,0,0,2,0,2,0,3.6,66.4,62,20,2
+CUST-000415,North America,month-to-month,digital-wallet,5g,75,50,66.87,198.29,1,1,0,0,1,0,2,2,23.33,76.5,22,9,1
+CUST-000416,North America,month-to-month,credit-card,cable,48,43,81.68,397.91,0,1,0,1,2,0,0,0,13.59,83.7,41,11,1
+CUST-000417,North America,month-to-month,bank-transfer,fiber,73,18,102.23,240.36,1,1,0,1,3,0,0,1,5.39,88.7,-13,17,2
+CUST-000418,APAC,two-year,credit-card,fiber,65,24,94.02,467.14,1,1,0,0,2,2,1,0,0.0,87.6,-22,18,0
+CUST-000419,North America,month-to-month,credit-card,fiber,25,37,99.18,544.35,1,1,0,1,4,1,0,1,2.97,60.0,-6,16,2
+CUST-000420,LATAM,month-to-month,credit-card,cable,59,38,128.22,265.46,1,1,0,0,3,0,3,0,7.57,83.4,10,7,3
+CUST-000421,APAC,one-year,bank-transfer,5g,70,25,97.87,507.84,1,1,0,0,2,1,0,1,6.71,56.4,37,9,2
+CUST-000422,North America,month-to-month,digital-wallet,fiber,49,23,103.47,487.43,1,1,0,1,4,0,0,0,12.88,61.5,19,0,2
+CUST-000423,North America,one-year,digital-wallet,5g,36,37,69.26,318.17,1,1,0,0,2,0,0,0,9.19,57.7,62,3,2
+CUST-000424,North America,month-to-month,credit-card,fiber,66,57,64.29,386.73,0,1,0,1,3,1,0,1,10.77,50.4,54,7,3
+CUST-000425,Europe,one-year,credit-card,fiber,22,1,107.85,427.3,0,1,1,0,3,1,0,1,16.93,74.1,95,3,1
+CUST-000426,APAC,month-to-month,credit-card,cable,69,9,80.29,,1,1,0,0,0,2,1,0,9.47,47.2,24,14,1
+CUST-000427,North America,two-year,digital-wallet,fiber,23,38,49.59,362.47,1,1,0,0,0,0,1,2,4.76,62.3,37,19,3
+CUST-000428,APAC,one-year,bank-transfer,fiber,22,20,103.39,326.03,0,1,0,0,2,1,1,1,6.96,87.3,45,0,2
+CUST-000429,North America,month-to-month,digital-wallet,fiber,49,15,116.54,257.82,0,1,0,0,3,1,0,0,13.79,80.7,20,16,1
+CUST-000430,APAC,two-year,credit-card,cable,23,10,66.28,292.08,1,1,0,0,2,0,0,0,10.76,65.9,48,1,2
+CUST-000431,LATAM,two-year,bank-transfer,fiber,61,16,50.4,335.79,1,0,0,1,2,1,1,1,3.77,73.5,14,7,4
+CUST-000432,APAC,one-year,bank-transfer,5g,47,27,126.09,,1,1,0,0,0,2,1,2,3.0,85.8,65,6,3
+CUST-000433,APAC,two-year,bank-transfer,cable,62,24,123.03,188.07,1,1,0,0,1,1,2,2,10.52,64.8,62,0,3
+CUST-000434,APAC,two-year,bank-transfer,cable,65,25,116.3,396.8,1,1,0,1,0,1,0,0,12.05,74.5,51,13,6
+CUST-000435,North America,month-to-month,credit-card,fiber,65,25,71.96,587.85,0,0,1,1,4,0,1,0,15.37,70.1,39,8,1
+CUST-000436,North America,month-to-month,bank-transfer,fiber,25,35,84.83,111.46,1,0,1,1,3,1,1,1,13.26,74.2,61,5,3
+CUST-000437,North America,month-to-month,invoice,cable,69,37,101.54,450.02,0,1,0,1,1,3,0,0,22.42,73.0,74,12,4
+CUST-000438,Europe,one-year,credit-card,fiber,69,13,113.31,360.59,1,1,0,0,0,1,1,1,23.08,55.2,41,0,2
+CUST-000439,APAC,two-year,digital-wallet,fiber,48,21,88.78,412.22,1,1,1,1,1,1,2,1,15.01,67.9,23,9,1
+CUST-000440,Europe,one-year,invoice,fiber,27,68,155.55,399.45,0,1,0,1,1,0,2,2,9.23,95.5,46,9,5
+CUST-000441,APAC,month-to-month,bank-transfer,cable,62,13,106.43,564.15,0,1,0,1,1,1,0,1,7.94,71.0,24,12,2
+CUST-000442,North America,two-year,bank-transfer,cable,60,30,95.09,355.14,1,0,0,1,2,0,0,0,8.94,74.8,-1,3,1
+CUST-000443,APAC,one-year,credit-card,cable,26,40,88.33,374.87,0,0,0,0,1,2,1,1,7.16,94.1,39,2,2
+CUST-000444,North America,month-to-month,digital-wallet,cable,66,48,97.57,360.79,0,1,0,1,2,0,1,2,0.0,55.9,69,9,2
+CUST-000445,North America,two-year,invoice,fiber,59,35,101.29,468.31,1,1,0,1,0,2,1,1,5.83,77.2,3,3,1
+CUST-000446,APAC,month-to-month,invoice,fiber,21,22,65.08,367.78,1,1,0,0,3,1,2,1,18.24,80.2,50,20,2
+CUST-000447,LATAM,one-year,credit-card,fiber,55,18,63.24,441.02,1,1,0,0,0,3,0,0,7.88,73.9,51,7,2
+CUST-000448,Europe,month-to-month,invoice,cable,69,34,74.2,510.78,0,0,0,0,1,0,1,0,7.3,56.3,58,5,0
+CUST-000449,North America,two-year,credit-card,fiber,75,42,84.32,394.16,1,1,0,1,3,0,1,0,11.19,70.5,55,4,3
+CUST-000450,Europe,month-to-month,bank-transfer,5g,68,56,96.0,304.87,0,0,0,1,1,1,0,0,11.93,59.4,-1,6,1
+CUST-000451,North America,month-to-month,credit-card,fiber,69,51,81.32,110.13,1,1,0,1,2,0,1,0,12.46,66.0,38,11,2
+CUST-000452,LATAM,one-year,credit-card,fiber,27,44,91.41,574.86,1,0,0,0,2,0,0,0,0.0,69.9,7,8,0
+CUST-000453,APAC,two-year,bank-transfer,cable,20,11,57.84,491.72,0,0,1,0,2,2,0,0,8.99,67.8,28,3,0
+CUST-000454,North America,month-to-month,bank-transfer,fiber,31,13,121.04,289.45,1,1,1,1,4,0,1,3,9.76,42.9,41,14,3
+CUST-000455,North America,month-to-month,invoice,fiber,71,88,58.84,380.29,0,1,0,1,3,2,0,1,3.07,56.3,-1,11,3
+CUST-000456,North America,two-year,credit-card,fiber,69,25,99.37,651.95,0,1,0,1,1,1,1,1,8.64,60.4,42,7,1
+CUST-000457,LATAM,one-year,digital-wallet,fiber,23,32,67.5,300.39,1,1,0,1,0,0,1,0,16.29,74.5,57,4,0
+CUST-000458,Europe,month-to-month,bank-transfer,fiber,75,5,101.59,538.72,0,1,1,0,1,1,1,1,0.0,61.1,46,16,1
+CUST-000459,APAC,month-to-month,credit-card,fiber,31,45,129.41,617.26,1,1,0,1,1,1,1,1,2.23,68.0,56,18,6
+CUST-000460,Europe,month-to-month,credit-card,fiber,47,28,111.62,368.7,1,1,0,1,2,1,3,1,16.26,71.3,31,9,2
+CUST-000461,Europe,one-year,digital-wallet,cable,54,28,70.7,272.58,1,0,0,1,2,0,3,1,10.87,,-11,12,0
+CUST-000462,North America,one-year,digital-wallet,cable,26,84,97.62,438.99,0,1,0,0,3,1,0,1,11.43,65.5,71,10,1
+CUST-000463,LATAM,one-year,credit-card,fiber,41,35,83.33,377.78,1,1,1,1,1,1,0,3,,22.1,54,12,1
+CUST-000464,North America,month-to-month,credit-card,5g,35,24,60.39,441.53,0,1,0,0,2,2,2,0,7.89,35.9,60,12,1
+CUST-000465,Europe,two-year,bank-transfer,fiber,40,28,115.82,335.67,1,1,0,0,1,0,2,0,9.42,66.9,21,17,0
+CUST-000466,APAC,month-to-month,bank-transfer,5g,38,19,147.94,336.19,1,1,0,0,0,0,0,0,14.0,71.9,95,12,1
+CUST-000467,APAC,two-year,bank-transfer,5g,45,14,123.06,482.74,1,1,1,0,3,1,0,0,4.94,46.6,23,15,1
+CUST-000468,LATAM,month-to-month,digital-wallet,cable,56,25,62.79,161.52,1,1,1,1,2,0,1,0,4.63,53.0,79,7,1
+CUST-000469,North America,month-to-month,credit-card,fiber,25,9,141.82,444.04,1,1,0,1,2,0,0,1,2.49,77.7,58,5,0
+CUST-000470,Europe,month-to-month,credit-card,5g,61,21,77.15,332.86,1,1,0,1,2,1,2,0,5.39,51.0,21,5,1
+CUST-000471,Europe,month-to-month,credit-card,fiber,25,4,82.15,417.13,0,1,0,0,2,0,1,1,2.28,63.9,21,10,3
+CUST-000472,Europe,month-to-month,invoice,fiber,54,44,74.14,201.92,0,1,0,1,3,2,1,0,14.27,45.8,55,3,3
+CUST-000473,North America,one-year,bank-transfer,5g,30,73,95.83,649.53,1,1,0,0,0,2,3,0,3.78,69.1,89,14,0
+CUST-000474,North America,two-year,credit-card,fiber,71,25,42.77,433.0,0,1,1,1,2,2,1,1,14.03,46.7,-2,17,1
+CUST-000475,North America,one-year,digital-wallet,fiber,38,15,68.63,534.67,0,1,1,0,3,0,1,1,17.1,60.5,54,10,2
+CUST-000476,North America,one-year,bank-transfer,cable,19,30,120.1,274.78,1,1,0,0,5,0,0,0,10.95,73.3,43,3,0
+CUST-000477,Europe,month-to-month,credit-card,5g,24,48,154.21,328.85,0,1,0,0,2,2,2,0,19.8,53.1,61,1,1
+CUST-000478,Europe,two-year,credit-card,fiber,42,17,38.83,419.38,1,0,0,1,3,0,0,0,6.86,79.4,-8,4,2
+CUST-000479,Europe,month-to-month,digital-wallet,5g,75,38,117.33,410.12,0,1,0,0,3,1,2,1,7.08,94.9,41,15,0
+CUST-000480,Europe,month-to-month,digital-wallet,fiber,36,10,63.02,455.82,0,1,0,1,1,0,0,1,4.77,62.5,52,8,2
+CUST-000481,Europe,month-to-month,credit-card,cable,48,30,80.93,399.81,1,1,1,1,3,1,1,0,11.32,76.6,42,6,3
+CUST-000482,North America,month-to-month,credit-card,cable,63,40,61.63,397.83,1,0,0,0,1,1,4,0,7.12,60.3,20,6,1
+CUST-000483,Europe,one-year,credit-card,fiber,32,8,116.04,421.79,1,1,0,0,1,3,1,0,10.91,54.1,64,8,0
+CUST-000484,North America,month-to-month,bank-transfer,fiber,59,40,105.76,394.01,0,1,0,1,3,2,0,0,7.86,48.6,44,2,2
+CUST-000485,North America,month-to-month,credit-card,fiber,43,23,94.9,365.07,1,1,1,0,2,0,2,1,12.79,64.8,-20,4,6
+CUST-000486,Europe,two-year,credit-card,fiber,71,60,110.64,339.7,0,1,0,1,0,1,0,2,8.83,70.6,95,17,2
+CUST-000487,Europe,month-to-month,credit-card,cable,59,29,107.03,524.0,0,1,0,0,1,1,1,0,12.52,63.7,19,9,0
+CUST-000488,North America,one-year,invoice,fiber,37,41,64.82,295.1,0,1,1,1,0,1,1,0,14.71,50.3,-5,0,2
+CUST-000489,Europe,month-to-month,bank-transfer,cable,45,68,99.96,253.84,1,1,0,0,2,2,1,0,10.08,56.8,13,11,2
+CUST-000490,Europe,two-year,credit-card,5g,69,23,76.8,409.39,1,0,0,1,2,2,2,1,5.77,73.4,6,8,5
+CUST-000491,APAC,one-year,bank-transfer,cable,40,7,73.8,474.49,1,1,0,0,4,1,1,0,16.33,84.1,-20,17,1
+CUST-000492,APAC,month-to-month,digital-wallet,cable,50,15,104.23,847.96,1,1,0,0,0,1,2,0,2.63,63.5,63,7,2
+CUST-000493,APAC,two-year,digital-wallet,cable,69,27,123.98,326.75,1,1,0,0,1,1,0,1,7.3,69.9,25,11,1
+CUST-000494,North America,month-to-month,invoice,5g,28,92,90.21,423.6,0,1,0,0,0,3,0,0,20.08,81.2,40,3,0
+CUST-000495,APAC,month-to-month,bank-transfer,cable,68,59,131.71,360.54,1,1,1,1,2,0,0,1,12.25,77.2,16,4,1
+CUST-000496,Europe,one-year,bank-transfer,fiber,67,17,84.18,,1,1,0,0,1,0,0,0,2.14,59.1,43,7,1
+CUST-000497,Europe,one-year,credit-card,cable,50,23,51.43,486.0,1,1,0,0,1,0,1,0,16.53,76.6,6,0,2
+CUST-000498,Europe,month-to-month,digital-wallet,cable,32,39,59.68,310.45,0,1,0,0,2,0,0,0,12.99,70.7,41,6,0
+CUST-000499,Europe,month-to-month,bank-transfer,cable,27,53,54.17,455.03,1,0,0,0,3,0,1,0,0.0,82.4,21,8,2
+CUST-000500,Europe,month-to-month,credit-card,fiber,63,9,101.87,307.82,0,1,0,0,2,0,0,0,17.15,58.1,30,9,3
