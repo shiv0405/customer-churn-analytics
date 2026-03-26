@@ -83,7 +83,3 @@ After `run-all`, the project writes:
 - Publish the batch scoring output into downstream CRM or case-management workflows
 - Add scheduled retraining, model monitoring, and champion/challenger governance
 - Wrap the batch scorer in an API or job orchestration layer for daily operational use
-
-## Automation Disclosure
-
-**Note:** This repository uses automation and AI assistance for planning, initial scaffolding, routine maintenance, and selected code or documentation generation. I review and curate the outputs as part of my portfolio workflow.
