@@ -1,13 +1,13 @@
 # Customer Retention Intelligence Platform
 
-Executive-ready churn analytics project designed to look and behave like a retention decisioning accelerator rather than a notebook demo. It generates an enterprise-scale customer portfolio, trains and evaluates a champion churn model, scores accounts into intervention bands, and exports leadership-facing reporting artifacts that can support conversations around product adoption, billing risk, customer operations, and model governance.
+Churn analytics project focused on retention decisioning, account prioritization, and reporting workflows. It generates an enterprise-scale customer portfolio, trains and evaluates a champion churn model, scores accounts into intervention bands, and exports reporting artifacts for product adoption, billing risk, customer operations, and model governance.
 
-## Why This Project Stands Out
+## Overview
 
-- Positions the work around retention strategy, not just binary classification
-- Produces a champion model, segment risk views, intervention queues, and stakeholder-ready HTML and markdown briefings
-- Includes a reusable batch-scoring workflow that makes the project feel closer to production operations
-- Uses synthetic data intentionally, but with realistic feature interactions that support senior-level discussion
+- Frames churn as an operational decision problem rather than a standalone modeling exercise
+- Produces a champion model, segment risk views, intervention queues, and reporting outputs
+- Includes a reusable batch-scoring workflow for downstream operational use
+- Uses synthetic data with realistic feature interactions across engagement, support, billing, and contracts
 
 ## Core Capabilities
 
