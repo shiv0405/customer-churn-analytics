@@ -1,4 +1,4 @@
-# Customer Churn Analytics
+# Customer Retention Intelligence
 
 A production-friendly churn analytics project built for portfolio and stakeholder review. It includes synthetic enterprise-scale sample data, a training and evaluation pipeline, risk scoring outputs, model governance artifacts, and an executive-ready HTML summary.
 
