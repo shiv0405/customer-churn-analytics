@@ -2,27 +2,27 @@
 
 Churn analytics project focused on retention decisioning, account prioritization, and reporting workflows. It generates an enterprise-scale customer portfolio, trains and evaluates a champion churn model, scores accounts into intervention bands, and exports reporting artifacts for product adoption, billing risk, customer operations, and model governance.
 
-## Overview
+## Use Case
 
 - Frames churn as an operational decision problem rather than a standalone modeling exercise
 - Produces a champion model, segment risk views, intervention queues, and reporting outputs
 - Includes a reusable batch-scoring workflow for downstream operational use
 - Uses synthetic data with realistic feature interactions across engagement, support, billing, and contracts
 
-## Visual Outputs
+## Metric Snapshot
 
 ![Customer retention overview](docs/images/overview.svg)
 
 ![Customer retention highlights](docs/images/highlights.svg)
 
-## Core Capabilities
+## Workflow Highlights
 
 - Synthetic portfolio generation for 15,000+ customers with realistic commercial, support, product usage, and payment signals
 - End-to-end model selection across multiple classifiers with threshold tuning and exported evaluation metrics
 - Batch scoring output with risk bands, reason summaries, and recommended next actions
 - Artifact pack for leadership review, including portfolio KPIs, retention playbook, segment risk summary, and executive HTML
 
-## Project Layout
+## Repository Structure
 
 - `src/customer_churn_analytics/` contains the package code, training pipeline, and batch inference workflow
 - `data/raw/` contains the generated training data and a ready-to-score sample batch file
@@ -59,7 +59,7 @@ Score a new batch file with the trained model:
 python -m customer_churn_analytics.cli score-batch --input data/raw/scoring_input_sample.csv
 ```
 
-## Outputs
+## Artifact Pack
 
 After `run-all`, the project writes:
 
@@ -76,14 +76,14 @@ After `run-all`, the project writes:
 - `artifacts/executive_summary.html`
 - `artifacts/churn_model.pkl`
 
-## Business Questions It Answers
+## Questions Addressed
 
 - Which customer segments carry the highest renewal risk and why?
 - How much of the portfolio needs immediate intervention versus automated nurture?
 - Which operational signals matter most: billing friction, service reliability, engagement, or contract structure?
 - How would this pipeline plug into a retention operations or customer success workflow?
 
-## Production Path
+## Operational Next Steps
 
 - Replace the synthetic generator with warehouse extracts or CRM snapshots
 - Publish the batch scoring output into downstream CRM or case-management workflows

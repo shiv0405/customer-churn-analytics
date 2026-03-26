@@ -27,6 +27,6 @@
   <text x="948" y="322" fill="#0f766e" font-size="15" font-family="Segoe UI, Arial, sans-serif">Champion model quality</text>
 
   <rect x="56" y="384" width="1168" height="316" rx="28" fill="#ffffff" stroke="#d8eeea" stroke-width="2"/>
-  <text x="84" y="438" fill="#0f172a" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Current outcome</text>
-  <text x="84" y="482" fill="#64748b" font-size="20" font-family="Segoe UI, Arial, sans-serif">North America month-to-month accounts drive the highest immediate retention exposure with 438</text><text x="84" y="512" fill="#64748b" font-size="20" font-family="Segoe UI, Arial, sans-serif">critical customers and 35.9% average churn probability.</text>
+  <text x="84" y="438" fill="#0f172a" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Retention snapshot</text>
+  <text x="84" y="482" text-anchor="start" fill="#64748b" font-size="20" font-family="Segoe UI, Arial, sans-serif">North America month-to-month accounts drive the highest immediate retention exposure with 438</text><text x="84" y="512" text-anchor="start" fill="#64748b" font-size="20" font-family="Segoe UI, Arial, sans-serif">critical customers and 35.9% average churn probability.</text>
 </svg>
